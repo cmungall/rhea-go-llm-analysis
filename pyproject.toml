@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rhea-go-llm-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Chris Mungall <cjm@berkeleybop.org>"]
+readme = "README.md"
+packages = [{include = "rhea_go_llm_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+oaklib = {extras = ["llm"], version = "^0.5.26"}
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

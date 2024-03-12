@@ -1,0 +1,26 @@
+# Markdown Jinja2 Template
+{% for item in items %}
+## Subject ID: {{item.subject_id}}
+
+- **Subject Info:**
+    - {{item.subject_info|replace('\n', '\n    - ')}}
+
+## Object ID: {{item.object_id}}
+
+- **Object Info:**
+    - {{item.object_info|replace('\n', '\n    - ')}}
+
+- **Predicate ID:** {{item.predicate_id}}
+
+- **Problem:** {{ 'Yes' if item.problem else 'No'}}
+
+- **Information:** {{item.info}}
+
+- **Confidence:** {{item.confidence}}
+
+{% if item.problem %}
+- **Suggested Predicate:** {{item.suggested_predicate}}
+- **Suggested Modifications:** {{item.suggested_modifications}}
+{% endif %}
+<hr>
+{% endfor %}
