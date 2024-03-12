@@ -1,0 +1,901 @@
+subject_id,object_id,problem_sum,confidence_avg,subject_info,object_info,predicate_id,problem,info,confidence,suggested_predicate,suggested_modifications,model
+GO:0003842,RHEA:24882,6,0.7000000000000001,"Name: 1-pyrroline-5-carboxylate dehydrogenase activity
+Definition: H2O + L-glutamate 5-semialdehyde + NAD+ = 2 H+ + L-glutamate + NADH.
+Relationships:","Name: (S)-1-pyrroline-5-carboxylate + 2 H2O + NADP(+) = H(+) + L-glutamate + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object are not an exact match. The subject describes the activity of the enzyme 1-pyrroline-5-carboxylate dehydrogenase, which catalyzes a reaction involving L-glutamate 5-semialdehyde, NAD+, L-glutamate, and NADH. The object, on the other hand, describes a chemical reaction involving (S)-1-pyrroline-5-carboxylate, H2O, NADP+, H+, L-glutamate, and NADPH. While the reactions are related, they differ in substrates and products.",1.0,skos:closeMatch,; ,claude-3-opus-generic
+GO:0003842,RHEA:24882,6,0.7000000000000001,"Name: 1-pyrroline-5-carboxylate dehydrogenase activity
+Definition: H2O + L-glutamate 5-semialdehyde + NAD+ = 2 H+ + L-glutamate + NADH.
+Relationships:","Name: (S)-1-pyrroline-5-carboxylate + 2 H2O + NADP(+) = H(+) + L-glutamate + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,The SUBJECT and OBJECT are not identically matched. The cofactor NAD in the SUBJECT is not the same as NADP in the OBJECT. The number of water molecules involved also differs.,1.0,No modification needed,No modification needed; Change 'NADP(+) = H(+) + L-glutamate + NADPH' to 'NAD+ = 2 H+ + L-glutamate + NADH'. And also remove '2 H2O + ' from the OBJECT,gpt4full-generic
+GO:0003842,RHEA:24882,6,0.7000000000000001,"Name: 1-pyrroline-5-carboxylate dehydrogenase activity
+Definition: H2O + L-glutamate 5-semialdehyde + NAD+ = 2 H+ + L-glutamate + NADH.
+Relationships:","Name: (S)-1-pyrroline-5-carboxylate + 2 H2O + NADP(+) = H(+) + L-glutamate + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate 'skos:exactMatch' is incorrect as the SUBJECT and OBJECT do not describe the same entity. The SUBJECT describes an enzymatic activity that converts 1-pyrroline-5-carboxylate to L-glutamate 5-semialdehyde, while the OBJECT describes a reaction involving (S)-1-pyrroline-5-carboxylate and NADP(+).",0.1,Change 'skos:exactMatch' to 'skos:closeMatch' or 'skos:relatedMatch' to reflect the related but distinct nature of the SUBJECT and OBJECT.,None; Change '(S)-1-pyrroline-5-carboxylate' to '1-pyrroline-5-carboxylate' to accurately reflect the substrate.,groq-llama-generic
+GO:0003842,RHEA:24882,6,0.7000000000000001,"Name: 1-pyrroline-5-carboxylate dehydrogenase activity
+Definition: H2O + L-glutamate 5-semialdehyde + NAD+ = 2 H+ + L-glutamate + NADH.
+Relationships:","Name: (S)-1-pyrroline-5-carboxylate + 2 H2O + NADP(+) = H(+) + L-glutamate + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction, although they are related. The subject is a dehydrogenase activity that converts 1-pyrroline-5-carboxylate to glutamate using NAD+ as a cofactor, while the object is the reverse reaction that converts glutamate to 1-pyrroline-5-carboxylate using NADP+ as a cofactor. The predicate suggests that the subject and object are identical, but they are not.",0.1,"Consider changing the predicate to a more appropriate one, such as skos:relatedMatch or skos:closeMatch",; Consider changing the object to: 1-pyrroline-5-carboxylate = L-glutamate + NAD(P)H + H+,mixtral-prompted
+GO:0003842,RHEA:24882,6,0.7000000000000001,"Name: 1-pyrroline-5-carboxylate dehydrogenase activity
+Definition: H2O + L-glutamate 5-semialdehyde + NAD+ = 2 H+ + L-glutamate + NADH.
+Relationships:","Name: (S)-1-pyrroline-5-carboxylate + 2 H2O + NADP(+) = H(+) + L-glutamate + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,The reaction substrates and products do not match between the SUBJECT and OBJECT. Modification of one of the entities or a different PREDICATE may be needed.,1.0,,; ,gpt3t-prompted
+GO:0003842,RHEA:24882,6,0.7000000000000001,"Name: 1-pyrroline-5-carboxylate dehydrogenase activity
+Definition: H2O + L-glutamate 5-semialdehyde + NAD+ = 2 H+ + L-glutamate + NADH.
+Relationships:","Name: (S)-1-pyrroline-5-carboxylate + 2 H2O + NADP(+) = H(+) + L-glutamate + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The chemical reactions and cofactors do not match exactly, indicating these are not the same activities. Specifically, the cofactor NAD+ in the SUBJECT does not match NADP(+) in the OBJECT, and NADH does not match NADPH. Additionally, the number of H2O molecules is different.",1.0,,; ,gpt-4-generic
+GO:0003848,RHEA:11412,6,0.7000000000000001,"Name: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity
+Definition: Catalysis of the reaction: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine + ATP = (2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl diphosphate + AMP + 2 H+.
+Relationships:","Name: 6-hydroxymethyl-7,8-dihydropterin + ATP = (7,8-dihydropterin-6-yl)methyl diphosphate + AMP + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are not an exact match. The SUBJECT specifies the reaction catalyzed by 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase, while the OBJECT is missing the 2-amino-4-hydroxy groups on the pteridine ring and has a slightly different reaction stoichiometry (1 H+ vs 2 H+).",1.0,skos:closeMatch may be more appropriate than skos:exactMatch given the differences.,"; 6-hydroxymethyl-7,8-dihydropterin should be 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine, and the reaction should produce 2 H+ instead of 1 H+.",claude-3-opus-generic
+GO:0003848,RHEA:11412,6,0.7000000000000001,"Name: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity
+Definition: Catalysis of the reaction: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine + ATP = (2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl diphosphate + AMP + 2 H+.
+Relationships:","Name: 6-hydroxymethyl-7,8-dihydropterin + ATP = (7,8-dihydropterin-6-yl)methyl diphosphate + AMP + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object are close, but not exact because of the difference in portions of their chemical compositions, specifically 2-amino-4-hydroxy component in subject, which does not exist in the object. In addition, the numbers of released H+ differ.",1.0,skos:closeMatch,"; The name of the object should match its reaction in the subject formula. It should be '2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine + ATP = (2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl diphosphate + AMP + 2 H+'.",gpt4full-generic
+GO:0003848,RHEA:11412,6,0.7000000000000001,"Name: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity
+Definition: Catalysis of the reaction: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine + ATP = (2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl diphosphate + AMP + 2 H+.
+Relationships:","Name: 6-hydroxymethyl-7,8-dihydropterin + ATP = (7,8-dihydropterin-6-yl)methyl diphosphate + AMP + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not have an exact match relationship, but they are closely related. The subject is a specific type of enzyme that catalyzes a reaction involving 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine, while the object is the specific reaction that the enzyme catalyzes. The predicate should be modified to better reflect the relationship between the subject and object.",0.1,skos:narrowerMatch,"2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase; 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine + ATP = (2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl diphosphate + AMP + 2 H+",groq-llama-generic
+GO:0003848,RHEA:11412,6,0.7000000000000001,"Name: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity
+Definition: Catalysis of the reaction: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine + ATP = (2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl diphosphate + AMP + 2 H+.
+Relationships:","Name: 6-hydroxymethyl-7,8-dihydropterin + ATP = (7,8-dihydropterin-6-yl)methyl diphosphate + AMP + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent identical concepts, but they are closely related. The SUBJECT describes the activity of a specific enzyme that catalyzes a reaction involving 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine, while the OBJECT represents a simplified version of this reaction, omitting the 2-amino-4-hydroxy substituents. The PREDICATE suggests an exact match, which is not accurate in this case.",0.1,Change to skos:closeMatch or a similar predicate that reflects the relationship between SUBJECT and OBJECT more accurately.,"None; Add 2-amino-4-hydroxy substituents to the reactant: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine",mixtral-prompted
+GO:0003848,RHEA:11412,6,0.7000000000000001,"Name: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity
+Definition: Catalysis of the reaction: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine + ATP = (2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl diphosphate + AMP + 2 H+.
+Relationships:","Name: 6-hydroxymethyl-7,8-dihydropterin + ATP = (7,8-dihydropterin-6-yl)methyl diphosphate + AMP + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,The SUBJECT and OBJECT do not have identical reactions. The reaction substrates and products are different.,1.0,,; ,gpt3t-prompted
+GO:0003848,RHEA:11412,6,0.7000000000000001,"Name: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity
+Definition: Catalysis of the reaction: 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine + ATP = (2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl diphosphate + AMP + 2 H+.
+Relationships:","Name: 6-hydroxymethyl-7,8-dihydropterin + ATP = (7,8-dihydropterin-6-yl)methyl diphosphate + AMP + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT describe similar but not identical reactions. The name and formula in the SUBJECT indicate a specific enzyme activity involving a 2-amino group that is not mentioned in the OBJECT's name. Furthermore, the product and reactants differ slightly in their composition (presence of 2-amino and hydroxy groups in the SUBJECT that are not specified in the OBJECT), and the OBJECT only accounts for one H+ ion, suggesting a discrepancy in the overall reaction stoichiometry compared to the SUBJECT.",1.0,,; Include '2-amino-4-hydroxy' in the compound names and account for the additional H+ in the reaction to match the SUBJECT description,gpt-4-generic
+GO:0004051,RHEA:32307,6,0.7000000000000001,"Name: arachidonate 5-lipoxygenase activity
+Definition: Catalysis of the reaction: arachidonate + O2 = (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxycosa-6,8,11,14-tetraenoate.
+Relationships:","Name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 = H2O + leukotriene A4
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes the catalysis of a reaction that converts arachidonate to 5-hydroperoxy-eicosatetraenoate, while the OBJECT describes a different reaction that converts eicosatetraenoate to leukotriene A4. These are two distinct reactions, so an exactMatch is not appropriate.",1.0,"A more appropriate predicate could be skos:related or skos:broadMatch, as the reactions share a substrate (arachidonate/eicosatetraenoate) and both involve lipoxygenase enzymes, but are not identical.",; ,claude-3-opus-generic
+GO:0004051,RHEA:32307,6,0.7000000000000001,"Name: arachidonate 5-lipoxygenase activity
+Definition: Catalysis of the reaction: arachidonate + O2 = (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxycosa-6,8,11,14-tetraenoate.
+Relationships:","Name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 = H2O + leukotriene A4
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT descriptions refer to different chemical reactions. Even though they both involve arachidonate, they result in different products, so they cannot be considered an exact match.",1.0,Change predicate to 'skos:closeMatch' or 'skos:relatedMatch',No modifications needed; Update with correct OBJECT name and definition that aligns with the SUBJECT,gpt4full-generic
+GO:0004051,RHEA:32307,6,0.7000000000000001,"Name: arachidonate 5-lipoxygenase activity
+Definition: Catalysis of the reaction: arachidonate + O2 = (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxycosa-6,8,11,14-tetraenoate.
+Relationships:","Name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 = H2O + leukotriene A4
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not have an exact match relationship. The subject is an enzyme that catalyzes a reaction, while the object is the reaction itself. The predicate 'skos:exactMatch' is not accurate in this context.",0.1,skos:relatedMatch,"arachidonate 5-lipoxygenase; (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 = H2O + leukotriene A4",groq-llama-generic
+GO:0004051,RHEA:32307,6,0.7000000000000001,"Name: arachidonate 5-lipoxygenase activity
+Definition: Catalysis of the reaction: arachidonate + O2 = (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxycosa-6,8,11,14-tetraenoate.
+Relationships:","Name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 = H2O + leukotriene A4
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction, although they are related. The subject is a specific type of lipoxygenase activity that produces (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxycosa-6,8,11,14-tetraenoate from arachidonate and O2, while the object represents a reaction that produces leukotriene A4 from (5Z,8Z,11Z,14Z)-eicosatetraenoate and O2, with H2O as a byproduct.",0.1,None,None; Change the name to 'arachidonate + O2 = H2O + leukotriene A4' to better reflect the reaction it represents.,mixtral-prompted
+GO:0004051,RHEA:32307,6,0.7000000000000001,"Name: arachidonate 5-lipoxygenase activity
+Definition: Catalysis of the reaction: arachidonate + O2 = (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxycosa-6,8,11,14-tetraenoate.
+Relationships:","Name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 = H2O + leukotriene A4
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed mapping is not accurate as the reactions described are different. While both reactions involve O2 and arachidonic acid derivatives, the specific chemical products formed are different in each case.",1.0,,; ,gpt3t-prompted
+GO:0004051,RHEA:32307,6,0.7000000000000001,"Name: arachidonate 5-lipoxygenase activity
+Definition: Catalysis of the reaction: arachidonate + O2 = (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxycosa-6,8,11,14-tetraenoate.
+Relationships:","Name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 = H2O + leukotriene A4
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT refers to the enzyme activity (arachidonate 5-lipoxygenase) catalyzing a specific biochemical reaction, while the OBJECT describes the products and reactants involved in a specific biological chemical reaction that results in leukotriene A4 from eicosatetraenoate and oxygen, with water as a byproduct. Although related and part of the same biochemical pathway, describing an enzyme's activity is not the exact same concept as describing a chemical reaction's inputs and outputs.",1.0,skos:closeMatch,; Clarify that the specific reaction is catalyzed by arachidonate 5-lipoxygenase,gpt-4-generic
+GO:0004164,RHEA:36415,6,0.7000000000000001,"Name: diphthine synthase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + 2-(3-carboxy-3-aminopropyl)-L-histidine = S-adenosyl-L-homocysteine + 2-(3-carboxy-3-(methylammonio)propyl)-L-histidine.
+Relationships:","Name: 2-[(3S)-amino-3-carboxypropyl]-L-histidyl-[translation elongation factor 2] + 3 S-adenosyl-L-methionine = diphthine-[translation elongation factor 2] + 3 H(+) + 3 S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,The subject is an enzymatic activity while the object is a chemical reaction. These are related concepts but not an exact match. The object describes the specific reaction catalyzed by the enzyme referenced in the subject.,1.0,skos:closeMatch,; ,claude-3-opus-generic
+GO:0004164,RHEA:36415,6,0.7000000000000001,"Name: diphthine synthase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + 2-(3-carboxy-3-aminopropyl)-L-histidine = S-adenosyl-L-homocysteine + 2-(3-carboxy-3-(methylammonio)propyl)-L-histidine.
+Relationships:","Name: 2-[(3S)-amino-3-carboxypropyl]-L-histidyl-[translation elongation factor 2] + 3 S-adenosyl-L-methionine = diphthine-[translation elongation factor 2] + 3 H(+) + 3 S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The definition of the SUBJECT and the name of the OBJECT appear to describe different reactions, therefore the mapping is not an 'exactMatch'.",1.0,consider a looser predicate such as 'related' or 'closeMatch',no modifications; consider a different OBJECT that matches the reaction described in the SUBJECT,gpt4full-generic
+GO:0004164,RHEA:36415,6,0.7000000000000001,"Name: diphthine synthase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + 2-(3-carboxy-3-aminopropyl)-L-histidine = S-adenosyl-L-homocysteine + 2-(3-carboxy-3-(methylammonio)propyl)-L-histidine.
+Relationships:","Name: 2-[(3S)-amino-3-carboxypropyl]-L-histidyl-[translation elongation factor 2] + 3 S-adenosyl-L-methionine = diphthine-[translation elongation factor 2] + 3 H(+) + 3 S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not have an exact match relationship. The subject is an enzyme that catalyzes a specific reaction, while the object is a product of a reaction involving a specific protein and multiple S-adenosyl-L-methionine molecules.",0.1,The predicate 'skos:exactMatch' is not appropriate for this mapping. A more appropriate predicate might be 'skos:related' or 'dc:hasPart'.,None; None,groq-llama-generic
+GO:0004164,RHEA:36415,6,0.7000000000000001,"Name: diphthine synthase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + 2-(3-carboxy-3-aminopropyl)-L-histidine = S-adenosyl-L-homocysteine + 2-(3-carboxy-3-(methylammonio)propyl)-L-histidine.
+Relationships:","Name: 2-[(3S)-amino-3-carboxypropyl]-L-histidyl-[translation elongation factor 2] + 3 S-adenosyl-L-methionine = diphthine-[translation elongation factor 2] + 3 H(+) + 3 S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction. The subject describes the formation of 2-(3-carboxy-3-(methylammonio)propyl)-L-histidine from 2-(3-carboxy-3-aminopropyl)-L-histidine, while the object describes the formation of diphthine-[translation elongation factor 2] from 2-[(3S)-amino-3-carboxypropyl]-L-histidyl-[translation elongation factor 2].",0.1,None,None; None,mixtral-prompted
+GO:0004164,RHEA:36415,6,0.7000000000000001,"Name: diphthine synthase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + 2-(3-carboxy-3-aminopropyl)-L-histidine = S-adenosyl-L-homocysteine + 2-(3-carboxy-3-(methylammonio)propyl)-L-histidine.
+Relationships:","Name: 2-[(3S)-amino-3-carboxypropyl]-L-histidyl-[translation elongation factor 2] + 3 S-adenosyl-L-methionine = diphthine-[translation elongation factor 2] + 3 H(+) + 3 S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed mapping between the SUBJECT and OBJECT is incorrect. The reactions they describe involve different chemical compounds and are not equivalent.,1.0,,; ,gpt3t-prompted
+GO:0004164,RHEA:36415,6,0.7000000000000001,"Name: diphthine synthase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + 2-(3-carboxy-3-aminopropyl)-L-histidine = S-adenosyl-L-homocysteine + 2-(3-carboxy-3-(methylammonio)propyl)-L-histidine.
+Relationships:","Name: 2-[(3S)-amino-3-carboxypropyl]-L-histidyl-[translation elongation factor 2] + 3 S-adenosyl-L-methionine = diphthine-[translation elongation factor 2] + 3 H(+) + 3 S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes an enzyme activity (diphthine synthase activity) involving a specific chemical reaction, while the OBJECT describes a specific chemical reaction without referencing the enzyme activity. The reactions involved are related but not described in an identical manner. To ensure an exact match, both should precisely detail the enzyme activity or the chemical reaction in the same way.",1.0,,; Specify as enzyme activity involving the described reaction,gpt-4-generic
+GO:0004416,RHEA:25245,6,0.7000000000000001,"Name: hydroxyacylglutathione hydrolase activity
+Definition: Catalysis of the reaction: (S)-(2-hydroxyacyl)glutathione + H2O = glutathione + a 2-hydroxy carboxylate.
+Relationships:","Name: (R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,The subject is an enzyme activity while the object is a chemical reaction. These are not the same type of entity and cannot be an exact match. The object should be modified to represent the enzyme that catalyzes this specific reaction.,1.0,A more appropriate relationship may be 'catalyzes' to link the enzyme activity to the reaction it facilitates.,"; Modify the object name to be the enzyme that catalyzes the specific reaction, e.g. 'hydroxyacylglutathione hydrolase'. Add a definition describing the enzyme's function.",claude-3-opus-generic
+GO:0004416,RHEA:25245,6,0.7000000000000001,"Name: hydroxyacylglutathione hydrolase activity
+Definition: Catalysis of the reaction: (S)-(2-hydroxyacyl)glutathione + H2O = glutathione + a 2-hydroxy carboxylate.
+Relationships:","Name: (R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT aren't exact matches. While both relate to catalysis, their specifics differ, including different compounds and their reactions.",1.0,Change skos:exactMatch to skos:closeMatch,None; Include the name of the enzyme catalyzing the reaction and rewrite in standard compound notation,gpt4full-generic
+GO:0004416,RHEA:25245,6,0.7000000000000001,"Name: hydroxyacylglutathione hydrolase activity
+Definition: Catalysis of the reaction: (S)-(2-hydroxyacyl)glutathione + H2O = glutathione + a 2-hydroxy carboxylate.
+Relationships:","Name: (R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The given predicate 'skos:exactMatch' implies that the SUBJECT and OBJECT are identical concepts. However, the SUBJECT and OBJECT are different enzymatic reactions. The SUBJECT catalyzes the reaction of (S)-hydroxyacylglutathione with water, while the OBJECT describes a reaction of (R)-S-lactoyglutathione with water. The reactions have different substrates and stereochemistry.",0.1,skos:relatedMatch,hydroxyacylglutathione hydrolase activity; R-S-lactoyglutathione reaction with water,groq-llama-generic
+GO:0004416,RHEA:25245,6,0.7000000000000001,"Name: hydroxyacylglutathione hydrolase activity
+Definition: Catalysis of the reaction: (S)-(2-hydroxyacyl)glutathione + H2O = glutathione + a 2-hydroxy carboxylate.
+Relationships:","Name: (R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same reaction. The SUBJECT is a hydrolysis reaction that produces glutathione and a 2-hydroxy carboxylate, while the OBJECT is a different reaction that produces (R)-lactate instead of a 2-hydroxy carboxylate.",0.1,skos:closeMatch instead of skos:exactMatch,None; Change the reactants and products to match the SUBJECT: (S)-(2-hydroxyacyl)glutathione + H2O = glutathione + a 2-hydroxy carboxylate.,mixtral-prompted
+GO:0004416,RHEA:25245,6,0.7000000000000001,"Name: hydroxyacylglutathione hydrolase activity
+Definition: Catalysis of the reaction: (S)-(2-hydroxyacyl)glutathione + H2O = glutathione + a 2-hydroxy carboxylate.
+Relationships:","Name: (R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT have similar reactions involving glutathione and water, but the specific substrates and products do not match. The definitions and reactions are not equivalent.",1.0,,; ,gpt3t-prompted
+GO:0004416,RHEA:25245,6,0.7000000000000001,"Name: hydroxyacylglutathione hydrolase activity
+Definition: Catalysis of the reaction: (S)-(2-hydroxyacyl)glutathione + H2O = glutathione + a 2-hydroxy carboxylate.
+Relationships:","Name: (R)-S-lactoylglutathione + H2O = (R)-lactate + glutathione + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes the enzymatic activity involving hydroxyacylglutathione, which is a broad category, whereas the OBJECT refers to a specific chemical reaction involving (R)-S-lactoylglutathione, which is a specific substrate within that category. The SUBJECT's definition does not strictly match the OBJECT's because the OBJECT specifies the stereochemistry ((R)-lactate) and includes the release of a proton (H(+)) which is not mentioned in the SUBJECT's definition. Therefore, they cannot be considered an exact match.",1.0,skos:closeMatch,; ,gpt-4-generic
+GO:0004453,RHEA:16393,6,0.7000000000000001,"Name: juvenile-hormone esterase activity
+Definition: Catalysis of the reaction: methyl (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + H2O = (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + methanol. A carboxylesterase that hydrolyzes the ester linkage of juvenile hormone.
+Relationships:","Name: H2O + juvenile hormone II = H(+) + juvenile hormone II carboxylate + methanol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject refers to the enzymatic activity of juvenile-hormone esterase, while the object refers to the specific chemical reaction catalyzed by this enzyme. These are related but distinct concepts. An exact match would be between two entities both referring to the enzymatic activity itself.",1.0,skos:closeMatch,; juvenile-hormone esterase activity,claude-3-opus-generic
+GO:0004453,RHEA:16393,6,0.7000000000000001,"Name: juvenile-hormone esterase activity
+Definition: Catalysis of the reaction: methyl (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + H2O = (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + methanol. A carboxylesterase that hydrolyzes the ester linkage of juvenile hormone.
+Relationships:","Name: H2O + juvenile hormone II = H(+) + juvenile hormone II carboxylate + methanol
+Definition: None
+Relationships:",oio:hasDbXref,True,"Even though both SUBJECT and OBJECT involve reactions concerning juvenile hormone, they are not exact matches due to differences in the reaction equations.",1.0,skos:closeMatch,; ,gpt4full-generic
+GO:0004453,RHEA:16393,6,0.7000000000000001,"Name: juvenile-hormone esterase activity
+Definition: Catalysis of the reaction: methyl (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + H2O = (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + methanol. A carboxylesterase that hydrolyzes the ester linkage of juvenile hormone.
+Relationships:","Name: H2O + juvenile hormone II = H(+) + juvenile hormone II carboxylate + methanol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not have an exact match. However, they are related. The SUBJECT is a carboxylesterase that hydrolyzes the ester linkage of juvenile hormone, while the OBJECT describes the reaction of H2O + juvenile hormone II = H(+) + juvenile hormone II carboxylate + methanol. The predicate_modifications should be modified to better reflect their relationship, such as 'skos:relatedMatch'.",0.1,skos:exactMatch -> skos:relatedMatch,None; None,groq-llama-generic
+GO:0004453,RHEA:16393,6,0.7000000000000001,"Name: juvenile-hormone esterase activity
+Definition: Catalysis of the reaction: methyl (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + H2O = (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + methanol. A carboxylesterase that hydrolyzes the ester linkage of juvenile hormone.
+Relationships:","Name: H2O + juvenile hormone II = H(+) + juvenile hormone II carboxylate + methanol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same reaction, although they are related. The SUBJECT describes an enzyme (juvenile-hormone esterase) that catalyzes the hydrolysis of juvenile hormone II to its carboxylate and methanol. The proposed PREDICATE is skos:exactMatch, which implies that the SUBJECT and OBJECT are identical. However, the OBJECT describes a reaction that includes H2O as a reactant and does not explicitly state that juvenile hormone II is esterified, which is crucial for the reaction to be catalyzed by juvenile-hormone esterase.",0.1,"The PREDICATE skos:exactMatch is not appropriate for this mapping. A more suitable PREDICATE would be a subclass or a part-whole relationship, indicating that the reaction described in the OBJECT is a specific instance of the general class of reactions catalyzed by juvenile-hormone esterase.","None; Modify the OBJECT to explicitly state that the reaction includes the hydrolysis of an ester linkage in juvenile hormone II, and that one of the products is methanol.",mixtral-prompted
+GO:0004453,RHEA:16393,6,0.7000000000000001,"Name: juvenile-hormone esterase activity
+Definition: Catalysis of the reaction: methyl (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + H2O = (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + methanol. A carboxylesterase that hydrolyzes the ester linkage of juvenile hormone.
+Relationships:","Name: H2O + juvenile hormone II = H(+) + juvenile hormone II carboxylate + methanol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed SKOS:exactMatch relationship is incorrect. The reactions described for the SUBJECT and OBJECT are not equivalent. While both involve juvenile hormones and methanol, the specific chemical reactions described are not the same.",1.0,,; ,gpt3t-prompted
+GO:0004453,RHEA:16393,6,0.7000000000000001,"Name: juvenile-hormone esterase activity
+Definition: Catalysis of the reaction: methyl (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + H2O = (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate + methanol. A carboxylesterase that hydrolyzes the ester linkage of juvenile hormone.
+Relationships:","Name: H2O + juvenile hormone II = H(+) + juvenile hormone II carboxylate + methanol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes an enzyme activity (juvenile-hormone esterase activity), focusing on the catalysis of a reaction involving hydrolysis of juvenile hormone. The OBJECT describes a chemical reaction involving water and juvenile hormone II, resulting in hydrogen ion, juvenile hormone II carboxylate, and methanol, which is a specific instance of a reaction that could be catalyzed by the enzyme described in the SUBJECT. However, the match is not exact because the SUBJECT is about an enzyme's activity, while the OBJECT describes a chemical reaction. The terminology and focus differ significantly: one on the enzymatic activity and the other on a specific chemical reaction's products.",1.0,Change to 'relatedTo' or 'hasOutput',; Change to description of the enzyme catalyzing the reaction,gpt-4-generic
+GO:0004741,RHEA:12669,6,0.7000000000000001,"Name: [pyruvate dehydrogenase (lipoamide)] phosphatase activity
+Definition: Catalysis of the reaction: [pyruvate dehydrogenase (lipoamide)] phosphate + H2O = [pyruvate dehydrogenase (lipoamide)] + phosphate.
+Relationships:","Name: H2O + O-phospho-L-seryl-[pyruvate dehydrogenase E1 alpha subunit] = L-seryl-[pyruvate dehydrogenase E1 alpha subunit] + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject refers to the enzyme activity that catalyzes the dephosphorylation reaction, while the object is the chemical reaction itself. These are related concepts but not an exact match.",1.0,skos:closeMatch,; ,claude-3-opus-generic
+GO:0004741,RHEA:12669,6,0.7000000000000001,"Name: [pyruvate dehydrogenase (lipoamide)] phosphatase activity
+Definition: Catalysis of the reaction: [pyruvate dehydrogenase (lipoamide)] phosphate + H2O = [pyruvate dehydrogenase (lipoamide)] + phosphate.
+Relationships:","Name: H2O + O-phospho-L-seryl-[pyruvate dehydrogenase E1 alpha subunit] = L-seryl-[pyruvate dehydrogenase E1 alpha subunit] + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are not identical. The SUBJECT refers to the activity of a specific enzyme (pyruvate dehydrogenase phosphatase), while the OBJECT refers to a specific chemical reaction. While these concepts are related, they are not identical.",1.0,skos:closeMatch,; ,gpt4full-generic
+GO:0004741,RHEA:12669,6,0.7000000000000001,"Name: [pyruvate dehydrogenase (lipoamide)] phosphatase activity
+Definition: Catalysis of the reaction: [pyruvate dehydrogenase (lipoamide)] phosphate + H2O = [pyruvate dehydrogenase (lipoamide)] + phosphate.
+Relationships:","Name: H2O + O-phospho-L-seryl-[pyruvate dehydrogenase E1 alpha subunit] = L-seryl-[pyruvate dehydrogenase E1 alpha subunit] + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are not directly related. The SUBJECT is a phosphatase activity that removes a phosphate group from its target, while the OBJECT describes a reaction where a phosphate group is added to a target. The predicate skos:exactMatch is not appropriate here, as the concepts are not equivalent.",0.1,"Modify the predicate to a more appropriate one, such as skos:relatedMatch or a custom predicate that better describes the relationship between the SUBJECT and OBJECT.","None; Modify the OBJECT to describe a reaction where a phosphate group is removed from a target, or modify the SUBJECT to describe a phosphate group transfer reaction.",groq-llama-generic
+GO:0004741,RHEA:12669,6,0.7000000000000001,"Name: [pyruvate dehydrogenase (lipoamide)] phosphatase activity
+Definition: Catalysis of the reaction: [pyruvate dehydrogenase (lipoamide)] phosphate + H2O = [pyruvate dehydrogenase (lipoamide)] + phosphate.
+Relationships:","Name: H2O + O-phospho-L-seryl-[pyruvate dehydrogenase E1 alpha subunit] = L-seryl-[pyruvate dehydrogenase E1 alpha subunit] + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same chemical reaction. While both involve phosphate groups and hydrolysis, the SUBJECT describes a phosphatase activity on pyruvate dehydrogenase (lipoamide), while the OBJECT describes a reaction involving a serine residue in the E1 alpha subunit of pyruvate dehydrogenase. The PREDICATE 'skos:exactMatch' is not accurate for these distinct reactions.",0.1,"Replace with a more suitable predicate, such as skos:relatedMatch, to indicate that while the SUBJECT and OBJECT are related in terms of reactants and reactions, they do not represent an exact match.",None; None,mixtral-prompted
+GO:0004741,RHEA:12669,6,0.7000000000000001,"Name: [pyruvate dehydrogenase (lipoamide)] phosphatase activity
+Definition: Catalysis of the reaction: [pyruvate dehydrogenase (lipoamide)] phosphate + H2O = [pyruvate dehydrogenase (lipoamide)] + phosphate.
+Relationships:","Name: H2O + O-phospho-L-seryl-[pyruvate dehydrogenase E1 alpha subunit] = L-seryl-[pyruvate dehydrogenase E1 alpha subunit] + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed mapping between 'pyruvate dehydrogenase (lipoamide) phosphatase activity' and 'H2O + O-phospho-L-seryl-[pyruvate dehydrogenase E1 alpha subunit] = L-seryl-[pyruvate dehydrogenase E1 alpha subunit] + phosphate' is incorrect. The reaction substrates and products are not the same. The SUBJECT and OBJECT do not represent equivalent concepts.,1.0,,; ,gpt3t-prompted
+GO:0004741,RHEA:12669,6,0.7000000000000001,"Name: [pyruvate dehydrogenase (lipoamide)] phosphatase activity
+Definition: Catalysis of the reaction: [pyruvate dehydrogenase (lipoamide)] phosphate + H2O = [pyruvate dehydrogenase (lipoamide)] + phosphate.
+Relationships:","Name: H2O + O-phospho-L-seryl-[pyruvate dehydrogenase E1 alpha subunit] = L-seryl-[pyruvate dehydrogenase E1 alpha subunit] + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject describes the phosphatase activity specific to the pyruvate dehydrogenase complex, while the object details a chemical reaction involving water and a phosphorylated form of the pyruvate dehydrogenase E1 alpha subunit. Despite both involving dephosphorylation, the specificities in the substrate and product descriptions do not match exactly, making the skos:exactMatch predicate incorrect.",1.0,,; ,gpt-4-generic
+GO:0008353,RHEA:10216,6,0.7000000000000001,"Name: RNA polymerase II CTD heptapeptide repeat kinase activity
+Definition: Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + phosphorylated RNA polymerase II.
+Relationships:","Name: [DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-[DNA-directed RNA polymerase]
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject is more specific than the object. The subject refers to the phosphorylation of a specific heptapeptide repeat on the RNA polymerase II large subunit CTD, while the object broadly refers to the phosphorylation of any DNA-directed RNA polymerase. An exact match requires the concepts to be identical.",1.0,skos:closeMatch,; DNA-directed RNA polymerase II large subunit CTD heptapeptide repeat + ATP = ADP + H(+) + phospho-[DNA-directed RNA polymerase II large subunit CTD heptapeptide repeat],claude-3-opus-generic
+GO:0008353,RHEA:10216,6,0.7000000000000001,"Name: RNA polymerase II CTD heptapeptide repeat kinase activity
+Definition: Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + phosphorylated RNA polymerase II.
+Relationships:","Name: [DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-[DNA-directed RNA polymerase]
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are not exact matches as their definitions suggest different reactions. The SUBJECT specifically catalyzes the reaction of ATP with the RNA polymerase II large subunit CTD heptapeptide repeat, whereas the OBJECT is a more generic reaction involving any type of [DNA-directed RNA polymerase].",1.0,"Replace skos:exactMatch with a more appropriate predicate that signifies similarity but not exact equivalence, such as skos:closeMatch or skos:relatedMatch.",; Should specify the RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) rather than any [DNA-directed RNA polymerase].,gpt4full-generic
+GO:0008353,RHEA:10216,6,0.7000000000000001,"Name: RNA polymerase II CTD heptapeptide repeat kinase activity
+Definition: Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + phosphorylated RNA polymerase II.
+Relationships:","Name: [DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-[DNA-directed RNA polymerase]
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate 'skos:exactMatch' is incorrect as the SUBJECT and OBJECT are not identical. The SUBJECT is a specific type of kinase activity, while the OBJECT is a reaction involving RNA polymerase and ATP. They are not equivalent or equivalent descriptions of the same concept.",0.1,Change to 'skos:related' or 'rdfs:seeAlso' to indicate a relationship between the SUBJECT and a related process described in the OBJECT.,None; Change to 'Phosphorylated RNA polymerase II' to accurately reflect the product of the reaction described in the SUBJECT.,groq-llama-generic
+GO:0008353,RHEA:10216,6,0.7000000000000001,"Name: RNA polymerase II CTD heptapeptide repeat kinase activity
+Definition: Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + phosphorylated RNA polymerase II.
+Relationships:","Name: [DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-[DNA-directed RNA polymerase]
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT describe different reactions. The SUBJECT describes the phosphorylation of a specific sequence in the RNA polymerase II CTD heptapeptide repeat by ATP, while the OBJECT describes the phosphorylation of an unspecified DNA-directed RNA polymerase by ATP.",0.1,skos:closeMatch,; Name: [DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-[RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS)],mixtral-prompted
+GO:0008353,RHEA:10216,6,0.7000000000000001,"Name: RNA polymerase II CTD heptapeptide repeat kinase activity
+Definition: Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + phosphorylated RNA polymerase II.
+Relationships:","Name: [DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-[DNA-directed RNA polymerase]
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed exact match between 'RNA polymerase II CTD heptapeptide repeat kinase activity' and '[DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-[DNA-directed RNA polymerase]' is incorrect. The two entities involve different enzymes and reactions, so they are not equivalent.",1.0,,; ,gpt3t-prompted
+GO:0008353,RHEA:10216,6,0.7000000000000001,"Name: RNA polymerase II CTD heptapeptide repeat kinase activity
+Definition: Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + phosphorylated RNA polymerase II.
+Relationships:","Name: [DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-[DNA-directed RNA polymerase]
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes an enzyme activity specific to phosphorylating the C-terminal domain (CTD) of RNA polymerase II at serine residues within heptapeptide repeats. The OBJECT seems to be describing a more general reaction catalyzed by DNA-directed RNA polymerases, which could refer to any of the types of RNA polymerase (I, II, or III in eukaryotes), not specifically RNA polymerase II or its CTD phosphorylation. Thus, the detailed specificity towards the CTD of RNA polymerase II in the SUBJECT does not exactly match the general activity described in the OBJECT.",1.0,,; Specify the reaction to be specific to the phosphorylation of the RNA polymerase II CTD heptapeptide repeats,gpt-4-generic
+GO:0008422,RHEA:69655,6,0.7666666666666666,"Name: beta-glucosidase activity
+Definition: Catalysis of the hydrolysis of terminal, non-reducing beta-D-glucose residues with release of beta-D-glucose.
+Relationships:","Name: H2O + quercetin 3-O-beta-D-glucoside = beta-D-glucose + quercetin
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject refers to the general enzymatic activity of beta-glucosidase, while the object is a specific biochemical reaction involving the hydrolysis of quercetin 3-O-beta-D-glucoside to yield beta-D-glucose and quercetin. Although the reaction is an example of beta-glucosidase activity, they are not exactly equivalent concepts.",1.0,skos:narrowMatch,; ,claude-3-opus-generic
+GO:0008422,RHEA:69655,6,0.7666666666666666,"Name: beta-glucosidase activity
+Definition: Catalysis of the hydrolysis of terminal, non-reducing beta-D-glucose residues with release of beta-D-glucose.
+Relationships:","Name: H2O + quercetin 3-O-beta-D-glucoside = beta-D-glucose + quercetin
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are not exact matches. The SUBJECT is a broad enzymatic activity involved in breaking down various beta-D-glucose residues, whereas the OBJECT is a specific chemical reaction where quercetin 3-O-beta-D-glucoside is hydrolyzed to beta-D-glucose + quercetin involving water. The OBJECT seems to be a specific instance of the general process described by the SUBJECT.",1.0,Replace skos:exactMatch with skos:closeMatch,; ,gpt4full-generic
+GO:0008422,RHEA:69655,6,0.7666666666666666,"Name: beta-glucosidase activity
+Definition: Catalysis of the hydrolysis of terminal, non-reducing beta-D-glucose residues with release of beta-D-glucose.
+Relationships:","Name: H2O + quercetin 3-O-beta-D-glucoside = beta-D-glucose + quercetin
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate 'skos:exactMatch' is not accurate as the subject and object are not identical. However, they are related. The subject describes an enzymatic activity, while the object describes a chemical reaction that can be catalyzed by the enzyme associated with the subject.",0.5,Consider changing the predicate to 'dc:describes' or 'dct:hasPart' for a more accurate representation.,None; Consider changing the object to 'Beta-D-glucosidase catalyzes the hydrolysis of H2O + quercetin 3-O-beta-D-glucoside = beta-D-glucose + quercetin' for a more accurate representation.,groq-llama-generic
+GO:0008422,RHEA:69655,6,0.7666666666666666,"Name: beta-glucosidase activity
+Definition: Catalysis of the hydrolysis of terminal, non-reducing beta-D-glucose residues with release of beta-D-glucose.
+Relationships:","Name: H2O + quercetin 3-O-beta-D-glucoside = beta-D-glucose + quercetin
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction. The subject is a general description of an enzymatic activity that hydrolyzes beta-D-glucose residues, while the object is a specific chemical reaction involving quercetin 3-O-beta-D-glucoside and H2O. They are related in the sense that the product of the reaction (beta-D-glucose) is what the enzyme acts upon, but they do not represent an exact match.",0.1,The predicate skos:closeMatch might be more appropriate in this case.,None; None,mixtral-prompted
+GO:0008422,RHEA:69655,6,0.7666666666666666,"Name: beta-glucosidase activity
+Definition: Catalysis of the hydrolysis of terminal, non-reducing beta-D-glucose residues with release of beta-D-glucose.
+Relationships:","Name: H2O + quercetin 3-O-beta-D-glucoside = beta-D-glucose + quercetin
+Definition: None
+Relationships:",oio:hasDbXref,True,"The mapping is incorrect. The SUBJECT involves the activity of beta-glucosidase on beta-D-glucose, while the OBJECT describes a specific reaction involving quercetin 3-O-beta-D-glucoside. The chemical reactions are not equivalent.",1.0,,; ,gpt3t-prompted
+GO:0008422,RHEA:69655,6,0.7666666666666666,"Name: beta-glucosidase activity
+Definition: Catalysis of the hydrolysis of terminal, non-reducing beta-D-glucose residues with release of beta-D-glucose.
+Relationships:","Name: H2O + quercetin 3-O-beta-D-glucoside = beta-D-glucose + quercetin
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes an enzymatic activity, specifically the catalysis of breaking beta-D-glucose residues from molecules. The OBJECT describes a specific chemical reaction facilitated by an enzyme, but not the enzyme activity itself. They are related but not exact matches.",1.0,change to 'relatedMatch' or specify the relationship more accurately,"; Specify the enzyme (beta-glucosidase) that catalyzes this reaction, without equating the reaction to the enzyme's activity",gpt-4-generic
+GO:0008824,RHEA:11120,6,0.7000000000000001,"Name: cyanate hydratase activity
+Definition: Catalysis of the reaction: cyanate + H2O = carbamate.
+Relationships:","Name: cyanate + 3 H(+) + hydrogencarbonate = 2 CO2 + NH4(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,The subject is an enzyme activity while the object appears to be a chemical reaction. An enzyme activity catalyzes a reaction but is not equivalent to the reaction itself. The subject and object are related but not an exact match.,1.0,skos:closeMatch,; cyanate hydratase,claude-3-opus-generic
+GO:0008824,RHEA:11120,6,0.7000000000000001,"Name: cyanate hydratase activity
+Definition: Catalysis of the reaction: cyanate + H2O = carbamate.
+Relationships:","Name: cyanate + 3 H(+) + hydrogencarbonate = 2 CO2 + NH4(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not match exactly as defined by 'skos:exactMatch'. The subject indicates conversion of cyanate and H2O into carbamate, while the object represents a complex and different reaction involving cyanate, 3 H(+), hydrogencarbonate resulting in 2 CO2 and NH4(+).",1.0,,; Should refer to the same chemical reaction as in the subject,gpt4full-generic
+GO:0008824,RHEA:11120,6,0.7000000000000001,"Name: cyanate hydratase activity
+Definition: Catalysis of the reaction: cyanate + H2O = carbamate.
+Relationships:","Name: cyanate + 3 H(+) + hydrogencarbonate = 2 CO2 + NH4(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate 'skos:exactMatch' is incorrect as the SUBJECT and OBJECT are not identical. The SUBJECT is a specific enzymatic activity (cyanate hydratase activity), while the OBJECT is a chemical reaction involving cyanate. The CONCEPTS are not equivalent, but they are related. A more suitable predicate should be used, such as a more general predicate like 'dct:isVersionOf' or 'dct:isReferencedBy'.",0.1,Consider changing to 'dct:isVersionOf' or 'dct:isReferencedBy',"None; Change to 'Chemical Reaction: cyanate + 3 H+(aq) + hydrogencarbonate(aq) = 2 CO2(g) + NH4(aq)', to better reflect the nature of the reaction.",groq-llama-generic
+GO:0008824,RHEA:11120,6,0.7000000000000001,"Name: cyanate hydratase activity
+Definition: Catalysis of the reaction: cyanate + H2O = carbamate.
+Relationships:","Name: cyanate + 3 H(+) + hydrogencarbonate = 2 CO2 + NH4(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction, although they are related. The subject is a specific catalytic activity that results in carbamate, while the object describes a broader reaction involving cyanate and leading to carbon dioxide and ammonium.",0.1,,None; Modify the object to represent the same reaction as the subject: cyanate + H2O = carbamate,mixtral-prompted
+GO:0008824,RHEA:11120,6,0.7000000000000001,"Name: cyanate hydratase activity
+Definition: Catalysis of the reaction: cyanate + H2O = carbamate.
+Relationships:","Name: cyanate + 3 H(+) + hydrogencarbonate = 2 CO2 + NH4(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed exact match between 'cyanate hydratase activity' and 'cyanate + 3 H(+) + hydrogencarbonate = 2 CO2 + NH4(+)' is incorrect. The former refers to the enzymatic activity of cyanate hydratase, which catalyzes the conversion of cyanate to carbamate. The latter represents a chemical reaction involving cyanate, hydrogen ions, bicarbonate, carbon dioxide, and ammonium. These two entities do not have the same chemical participants.",1.0,,; ,gpt3t-prompted
+GO:0008824,RHEA:11120,6,0.7000000000000001,"Name: cyanate hydratase activity
+Definition: Catalysis of the reaction: cyanate + H2O = carbamate.
+Relationships:","Name: cyanate + 3 H(+) + hydrogencarbonate = 2 CO2 + NH4(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT refers to the enzymatic activity that catalyzes the conversion of cyanate and water to carbamate, while the OBJECT describes a chemical reaction involving cyanate, protons, and hydrogencarbonate resulting in carbon dioxide and ammonium. These are fundamentally different processes; the object's reaction does not match the specific enzymatic activity described in the subject.",1.0,,; Replace the chemical reaction with 'cyanate + H2O = carbamate' to exactly match the subject's activity,gpt-4-generic
+GO:0008882,RHEA:18589,6,0.7000000000000001,"Name: [glutamate-ammonia-ligase] adenylyltransferase activity
+Definition: Catalysis of the reaction: ATP + [L-glutamate:ammonia ligase (ADP-forming)] = diphosphate + adenylyl-[L-glutamate:ammonia ligase (ADP-forming)].
+Relationships:","Name: [glutamine synthetase]-L-tyrosine + ATP = [glutamine synthetase]-O(4)-(5'-adenylyl)-L-tyrosine + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same concept. The subject is referring to the enzymatic activity of adenylyltransferase on glutamate-ammonia ligase, while the object is describing a specific chemical reaction involving the adenylylation of a tyrosine residue on glutamine synthetase. These are related but distinct concepts.",1.0,skos:relatedMatch,; ,claude-3-opus-generic
+GO:0008882,RHEA:18589,6,0.7000000000000001,"Name: [glutamate-ammonia-ligase] adenylyltransferase activity
+Definition: Catalysis of the reaction: ATP + [L-glutamate:ammonia ligase (ADP-forming)] = diphosphate + adenylyl-[L-glutamate:ammonia ligase (ADP-forming)].
+Relationships:","Name: [glutamine synthetase]-L-tyrosine + ATP = [glutamine synthetase]-O(4)-(5'-adenylyl)-L-tyrosine + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes the activity of a glutamate-ammonia-ligase adenylyltransferase, while the OBJECT seems to be a reaction involving glutamine synthetase and L-tyrosine, not related to the transferase activity described in the SUBJECT. Aside from the involvement of ATP and diphosphate in both cases, these are distinct concepts.",1.0,owl:differentFrom,; ,gpt4full-generic
+GO:0008882,RHEA:18589,6,0.7000000000000001,"Name: [glutamate-ammonia-ligase] adenylyltransferase activity
+Definition: Catalysis of the reaction: ATP + [L-glutamate:ammonia ligase (ADP-forming)] = diphosphate + adenylyl-[L-glutamate:ammonia ligase (ADP-forming)].
+Relationships:","Name: [glutamine synthetase]-L-tyrosine + ATP = [glutamine synthetase]-O(4)-(5'-adenylyl)-L-tyrosine + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not have a direct relationship. The subject is a type of enzymatic activity, while the object is a biochemical reaction. They are not directly comparable or related.",0.1,None,None; None,groq-llama-generic
+GO:0008882,RHEA:18589,6,0.7000000000000001,"Name: [glutamate-ammonia-ligase] adenylyltransferase activity
+Definition: Catalysis of the reaction: ATP + [L-glutamate:ammonia ligase (ADP-forming)] = diphosphate + adenylyl-[L-glutamate:ammonia ligase (ADP-forming)].
+Relationships:","Name: [glutamine synthetase]-L-tyrosine + ATP = [glutamine synthetase]-O(4)-(5'-adenylyl)-L-tyrosine + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction. The subject involves a ligase enzyme that catalyzes the formation of a glutamine molecule from glutamate and ammonia, while the object describes the adenylylation of a glutamine synthetase protein.",0.1,None,None; None,mixtral-prompted
+GO:0008882,RHEA:18589,6,0.7000000000000001,"Name: [glutamate-ammonia-ligase] adenylyltransferase activity
+Definition: Catalysis of the reaction: ATP + [L-glutamate:ammonia ligase (ADP-forming)] = diphosphate + adenylyl-[L-glutamate:ammonia ligase (ADP-forming)].
+Relationships:","Name: [glutamine synthetase]-L-tyrosine + ATP = [glutamine synthetase]-O(4)-(5'-adenylyl)-L-tyrosine + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed exact match between glutamate-ammonia-ligase adenylyltransferase activity and glutamine synthetase reaction is incorrect. These are two distinct enzymatic activities catalyzing different reactions. The chemical participants and mechanisms involved are different.,1.0,,; ,gpt3t-prompted
+GO:0008882,RHEA:18589,6,0.7000000000000001,"Name: [glutamate-ammonia-ligase] adenylyltransferase activity
+Definition: Catalysis of the reaction: ATP + [L-glutamate:ammonia ligase (ADP-forming)] = diphosphate + adenylyl-[L-glutamate:ammonia ligase (ADP-forming)].
+Relationships:","Name: [glutamine synthetase]-L-tyrosine + ATP = [glutamine synthetase]-O(4)-(5'-adenylyl)-L-tyrosine + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and the OBJECT describe related but distinctly different biochemical processes. The SUBJECT is focused on the adenylyltransferase activity that modifies the glutamate-ammonia-ligase enzyme with an adenylyl group. The OBJECT, however, involves the adenylylation of glutamine synthetase by a specific reaction with L-tyrosine and ATP, leading to a different product. These are not exact matches due to the differences in enzymes and reactions involved.",1.0,Change 'skos:exactMatch' to a broader or more specific relationship that reflects the related but not identical nature of these activities,; ,gpt-4-generic
+GO:0009024,RHEA:12420,6,0.7000000000000001,"Name: tagatose-6-phosphate kinase activity
+Definition: Catalysis of the reaction: ATP + D-tagatose 6-phosphate = ADP + D-tagatose 1,6-bisphosphate.
+Relationships:","Name: ATP + D-tagatofuranose 6-phosphate = ADP + D-tagatofuranose 1,6-bisphosphate + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are not an exact match. The SUBJECT refers to the enzyme 'tagatose-6-phosphate kinase' catalyzing a reaction, while the OBJECT is the chemical reaction itself written out. Additionally, the OBJECT reaction includes H(+) as a product which is not mentioned in the SUBJECT.",1.0,skos:closeMatch,; tagatose-6-phosphate kinase activity,claude-3-opus-generic
+GO:0009024,RHEA:12420,6,0.7000000000000001,"Name: tagatose-6-phosphate kinase activity
+Definition: Catalysis of the reaction: ATP + D-tagatose 6-phosphate = ADP + D-tagatose 1,6-bisphosphate.
+Relationships:","Name: ATP + D-tagatofuranose 6-phosphate = ADP + D-tagatofuranose 1,6-bisphosphate + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The terms are distinct, tagatose and tagatofuranose are different compounds. The exact match predicate is not applicable here.",1.0,"Use a looser equivalence relationship, such as skos:closeMatch or skos:relatedMatch",; ,gpt4full-generic
+GO:0009024,RHEA:12420,6,0.7000000000000001,"Name: tagatose-6-phosphate kinase activity
+Definition: Catalysis of the reaction: ATP + D-tagatose 6-phosphate = ADP + D-tagatose 1,6-bisphosphate.
+Relationships:","Name: ATP + D-tagatofuranose 6-phosphate = ADP + D-tagatofuranose 1,6-bisphosphate + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate 'skos:exactMatch' is incorrect as the SUBJECT and OBJECT are not identical. The SUBJECT is a catalysis of a specific reaction involving ATP and D-tagatose 6-phosphate, while the OBJECT is a different reaction involving ATP, D-tagatofuranose 6-phosphate, and an additional H(+).",0.1,Replace 'skos:exactMatch' with 'skos:relatedMatch' or another appropriate predicate indicating a related but distinct reaction.,None; None,groq-llama-generic
+GO:0009024,RHEA:12420,6,0.7000000000000001,"Name: tagatose-6-phosphate kinase activity
+Definition: Catalysis of the reaction: ATP + D-tagatose 6-phosphate = ADP + D-tagatose 1,6-bisphosphate.
+Relationships:","Name: ATP + D-tagatofuranose 6-phosphate = ADP + D-tagatofuranose 1,6-bisphosphate + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,The subject and object do not represent equivalent reactions. The subject involves D-tagatose 6-phosphate while the object involves D-tagatofuranose 6-phosphate which are different chemical participants.,0.1,skos:closeMatch,None; Replace D-tagatofuranose 6-phosphate with D-tagatose 6-phosphate to match the subject,mixtral-prompted
+GO:0009024,RHEA:12420,6,0.7000000000000001,"Name: tagatose-6-phosphate kinase activity
+Definition: Catalysis of the reaction: ATP + D-tagatose 6-phosphate = ADP + D-tagatose 1,6-bisphosphate.
+Relationships:","Name: ATP + D-tagatofuranose 6-phosphate = ADP + D-tagatofuranose 1,6-bisphosphate + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed skos:exactMatch relationship is not accurate. The reactions described for SUBJECT and OBJECT involve different substrates and products.,1.0,,; ,gpt3t-prompted
+GO:0009024,RHEA:12420,6,0.7000000000000001,"Name: tagatose-6-phosphate kinase activity
+Definition: Catalysis of the reaction: ATP + D-tagatose 6-phosphate = ADP + D-tagatose 1,6-bisphosphate.
+Relationships:","Name: ATP + D-tagatofuranose 6-phosphate = ADP + D-tagatofuranose 1,6-bisphosphate + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT relates to the enzyme activity involving D-tagatose 6-phosphate, while the OBJECT describes a chemical reaction involving D-tagatofuranose 6-phosphate, which is a different sugar derivative. The compounds involved are not identical, indicating an error in mapping.",1.0,,; Replace 'D-tagatofuranose' with 'D-tagatose' to match the SUBJECT,gpt-4-generic
+GO:0015129,RHEA:34987,6,0.7000000000000001,"Name: lactate transmembrane transporter activity
+Definition: Enables the transfer of lactate from one side of a membrane to the other. Lactate is 2-hydroxypropanoate, CH3-CHOH-COOH; L(+)-lactate is formed by anaerobic glycolysis in animal tissues, and DL-lactate is found in sour milk, molasses and certain fruit juices.
+Relationships:","Name: (S)-lactate(in) = (S)-lactate(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject is referring to the general biological activity of transporting lactate across a membrane, while the object is a specific biochemical reaction showing equal concentrations of (S)-lactate on both sides of the membrane. These concepts are related but not an exact match.",1.0,skos:narrowMatch,; ,claude-3-opus-generic
+GO:0015129,RHEA:34987,6,0.7000000000000001,"Name: lactate transmembrane transporter activity
+Definition: Enables the transfer of lactate from one side of a membrane to the other. Lactate is 2-hydroxypropanoate, CH3-CHOH-COOH; L(+)-lactate is formed by anaerobic glycolysis in animal tissues, and DL-lactate is found in sour milk, molasses and certain fruit juices.
+Relationships:","Name: (S)-lactate(in) = (S)-lactate(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are related but not identical. The SUBJECT is a general process of transferring lactate across a membrane, while the OBJECT specifically refers to a process where an equal amount of (S)-lactate is transported in and out, suggesting no net movement of the molecule. Also, the absence of a definition for the OBJECT is problematic.",1.0,change from skos:exactMatch to skos:closeMatch,None; Add definition to OBJECT,gpt4full-generic
+GO:0015129,RHEA:34987,6,0.7000000000000001,"Name: lactate transmembrane transporter activity
+Definition: Enables the transfer of lactate from one side of a membrane to the other. Lactate is 2-hydroxypropanoate, CH3-CHOH-COOH; L(+)-lactate is formed by anaerobic glycolysis in animal tissues, and DL-lactate is found in sour milk, molasses and certain fruit juices.
+Relationships:","Name: (S)-lactate(in) = (S)-lactate(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not seem to have a clear relationship. The subject is a type of activity, while the object is a state of (S)-lactate. The predicate 'skos:exactMatch' is not appropriate here, as the subject and object are not equivalent.",0.1,"Consider changing the predicate to something that reflects the desired relationship, such as 'facilitates' or 'is involved in'.","None; Consider changing the object to a process or activity that is related to lactate, such as '(S)-lactate transport' or 'lactate movement across membrane'.",groq-llama-generic
+GO:0015129,RHEA:34987,6,0.7000000000000001,"Name: lactate transmembrane transporter activity
+Definition: Enables the transfer of lactate from one side of a membrane to the other. Lactate is 2-hydroxypropanoate, CH3-CHOH-COOH; L(+)-lactate is formed by anaerobic glycolysis in animal tissues, and DL-lactate is found in sour milk, molasses and certain fruit juices.
+Relationships:","Name: (S)-lactate(in) = (S)-lactate(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object are not equivalent. The subject is a type of transport activity, while the object is a specific instance of lactate transfer across a membrane. The predicate 'skos:exactMatch' is also incorrect as the concepts are not identical.",0.1,"Change to 'skos:closeMatch' or similar predicate, as the subject and object are related but not equivalent.",; Change to '(S)-lactate transport' for a closer mapping.,mixtral-prompted
+GO:0015129,RHEA:34987,6,0.7000000000000001,"Name: lactate transmembrane transporter activity
+Definition: Enables the transfer of lactate from one side of a membrane to the other. Lactate is 2-hydroxypropanoate, CH3-CHOH-COOH; L(+)-lactate is formed by anaerobic glycolysis in animal tissues, and DL-lactate is found in sour milk, molasses and certain fruit juices.
+Relationships:","Name: (S)-lactate(in) = (S)-lactate(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The mapping between lactate transmembrane transporter activity and the specific reaction (S)-lactate(in) = (S)-lactate(out) is not accurate. The lactate transmembrane transporter activity enables the transfer of lactate across a membrane, while the reaction (S)-lactate(in) = (S)-lactate(out) refers to the interconversion of (S)-lactate. These represent different biological processes.",1.0,,; ,gpt3t-prompted
+GO:0015129,RHEA:34987,6,0.7000000000000001,"Name: lactate transmembrane transporter activity
+Definition: Enables the transfer of lactate from one side of a membrane to the other. Lactate is 2-hydroxypropanoate, CH3-CHOH-COOH; L(+)-lactate is formed by anaerobic glycolysis in animal tissues, and DL-lactate is found in sour milk, molasses and certain fruit juices.
+Relationships:","Name: (S)-lactate(in) = (S)-lactate(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT refers to the general activity of transport for lactate across a membrane without specifying the direction, while the OBJECT specifies a balanced equation for the transport of (S)-lactate across a membrane without a net change in concentration on either side. The specific stereochemistry of (S)-lactate in the OBJECT indicates it is referring to a specific enantiomer of lactate, whereas the SUBJECT's definition includes lactate in general. The SUBJECT's definition implies a functionality, whereas the OBJECT seems to specify a particular chemical reaction.",1.0,,"; Generalize the (S)-lactate to include both (S)- and unspecified lactate; Remove the balance aspect to match the activity of transfer, not the state of equilibrium",gpt-4-generic
+GO:0015207,RHEA:34999,6,0.7000000000000001,"Name: adenine transmembrane transporter activity
+Definition: Enables the transfer of adenine, 6-aminopurine, from one side of a membrane to the other.
+Relationships:","Name: ADP(in) + ATP(out) = ADP(out) + ATP(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject is referring to the biological activity of an adenine transmembrane transporter, while the object appears to be a chemical equation representing the exchange of ADP and ATP across a membrane. These are related concepts but not an exact match.",1.0,skos:relatedMatch,; ,claude-3-opus-generic
+GO:0015207,RHEA:34999,6,0.7000000000000001,"Name: adenine transmembrane transporter activity
+Definition: Enables the transfer of adenine, 6-aminopurine, from one side of a membrane to the other.
+Relationships:","Name: ADP(in) + ATP(out) = ADP(out) + ATP(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"Despite both subject and object are related to cell membrane transport, they are not identical. The SUBJECT is specific to the transport of adenine across a membrane, while the OBJECT is referring to the transport of ADP and ATP, which are nucleotides containing adenine, but not adenine itself.",1.0,,; Change the object to adenine transport across cell membrane,gpt4full-generic
+GO:0015207,RHEA:34999,6,0.7000000000000001,"Name: adenine transmembrane transporter activity
+Definition: Enables the transfer of adenine, 6-aminopurine, from one side of a membrane to the other.
+Relationships:","Name: ADP(in) + ATP(out) = ADP(out) + ATP(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object are unrelated. The subject is a type of transporter activity that moves adenine across a membrane, while the object is a chemical reaction involving ADP and ATP. The predicate 'skos:exactMatch' is incorrect because the subject and object are not equivalent concepts.",0.1,Change to 'skos:relatedMatch' or another appropriate predicate indicating a related but non-equivalent concept.,None; Change to 'ATP hydrolysis' for a closer but still inaccurate match.,groq-llama-generic
+GO:0015207,RHEA:34999,6,0.7000000000000001,"Name: adenine transmembrane transporter activity
+Definition: Enables the transfer of adenine, 6-aminopurine, from one side of a membrane to the other.
+Relationships:","Name: ADP(in) + ATP(out) = ADP(out) + ATP(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object are not equivalent. The subject is an adenine transmembrane transporter, while the object describes a reaction involving ADP and ATP.",0.1,"No need to modify the predicate for this case, as it is not the primary source of error.",None; Modify to match the subject: 'Adenine (6-aminopurine) transport' or similar.,mixtral-prompted
+GO:0015207,RHEA:34999,6,0.7000000000000001,"Name: adenine transmembrane transporter activity
+Definition: Enables the transfer of adenine, 6-aminopurine, from one side of a membrane to the other.
+Relationships:","Name: ADP(in) + ATP(out) = ADP(out) + ATP(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The PREDICATE skos:exactMatch indicates an exact equivalence between the SUBJECT and OBJECT, however, the entities provided do not represent equivalent concepts. The subject is related to the transport of adenine across membranes, whereas the object describes a chemical reaction involving ADP and ATP. These are distinct processes and cannot be considered an exact match.",1.0,,; ,gpt3t-prompted
+GO:0015207,RHEA:34999,6,0.7000000000000001,"Name: adenine transmembrane transporter activity
+Definition: Enables the transfer of adenine, 6-aminopurine, from one side of a membrane to the other.
+Relationships:","Name: ADP(in) + ATP(out) = ADP(out) + ATP(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"Adenine transmembrane transporter activity specifically refers to the transport of adenine across a membrane, not the exchange of ADP and ATP as stated in the object. Although adenine is part of ADP and ATP, the processes and molecules involved are distinct.",1.0,,; Replace with 'adenine (in) = adenine (out)' for exact match,gpt-4-generic
+GO:0015254,RHEA:29675,6,0.7000000000000001,"Name: glycerol channel activity
+Definition: Enables the facilitated diffusion of glycerol (by an energy-independent process) involving passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.
+Relationships:","Name: glycerol(in) = glycerol(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject refers to the activity of a glycerol channel, which facilitates diffusion of glycerol across a membrane. The object simply states that glycerol concentration is equal on both sides, without mentioning a channel or diffusion process. These are related concepts but not an exact match.",1.0,skos:closeMatch,; glycerol diffusion through transmembrane channel resulting in glycerol(in) = glycerol(out),claude-3-opus-generic
+GO:0015254,RHEA:29675,6,0.7000000000000001,"Name: glycerol channel activity
+Definition: Enables the facilitated diffusion of glycerol (by an energy-independent process) involving passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.
+Relationships:","Name: glycerol(in) = glycerol(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,The concepts are similar but not identical. The OBJECT appears to be a transport/flux equation indicating a balanced state of glycerol on both sides of a membrane which isn't clearly stating that it's a channel-mediated transport.,1.0,,; Provide a definition for glycerol(in) = glycerol(out) specifying that this is a channel-mediated diffusion,gpt4full-generic
+GO:0015254,RHEA:29675,6,0.7000000000000001,"Name: glycerol channel activity
+Definition: Enables the facilitated diffusion of glycerol (by an energy-independent process) involving passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.
+Relationships:","Name: glycerol(in) = glycerol(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object are not compatible. The subject is a process (glycerol channel activity), while the object is a state (glycerol(in) = glycerol(out)). The predicate is also not appropriate, as skos:exactMatch is used to indicate that two concepts are identical, which is not the case here.",0.1,"Change the predicate to a more appropriate one, such as 'involves' or 'is part of'.","None; Change the object to a process related to glycerol transport, such as facilitated diffusion of glycerol through a channel.",groq-llama-generic
+GO:0015254,RHEA:29675,6,0.7000000000000001,"Name: glycerol channel activity
+Definition: Enables the facilitated diffusion of glycerol (by an energy-independent process) involving passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.
+Relationships:","Name: glycerol(in) = glycerol(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same concept. The subject refers to the activity of a glycerol channel, while the object is a simple equality between glycerol inside and outside a system. A more accurate object could be 'Transport of glycerol across membrane'.",0.1,,; Transport of glycerol across membrane,mixtral-prompted
+GO:0015254,RHEA:29675,6,0.7000000000000001,"Name: glycerol channel activity
+Definition: Enables the facilitated diffusion of glycerol (by an energy-independent process) involving passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.
+Relationships:","Name: glycerol(in) = glycerol(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The mapping between 'glycerol channel activity' and 'glycerol(in) = glycerol(out)' is incorrect. The SUBJECT refers to the activity of a protein facilitating the transport of glycerol across a membrane, whereas the OBJECT describes a specific chemical reaction with glycerol. These concepts are not equivalent.",1.0,,; ,gpt3t-prompted
+GO:0015254,RHEA:29675,6,0.7000000000000001,"Name: glycerol channel activity
+Definition: Enables the facilitated diffusion of glycerol (by an energy-independent process) involving passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.
+Relationships:","Name: glycerol(in) = glycerol(out)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes a protein's function related to glycerol transport across a membrane, whereas the OBJECT describes a chemical equilibrium of glycerol across a membrane without specifying the mechanism. The OBJECT seems more like an equation or a description of a state rather than a specific channel activity.",1.0,,; Change OBJECT to specifically refer to a protein or mechanism facilitating glycerol transport similar to the description in SUBJECT,gpt-4-generic
+GO:0015415,RHEA:24440,6,0.7000000000000001,"Name: ATPase-coupled phosphate ion transmembrane transporter activity
+Definition: Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + phosphate(out) = ADP + phosphate + phosphate(in).
+Relationships:","Name: ATP + H2O + phosphate(out) = ADP + H(+) + 2 phosphate(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The mapping is incorrect. The SUBJECT describes the general ATPase-coupled phosphate ion transmembrane transporter activity, while the OBJECT is a specific chemical reaction. They are related concepts but not an exact match.",1.0,skos:closeMatch,; ,claude-3-opus-generic
+GO:0015415,RHEA:24440,6,0.7000000000000001,"Name: ATPase-coupled phosphate ion transmembrane transporter activity
+Definition: Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + phosphate(out) = ADP + phosphate + phosphate(in).
+Relationships:","Name: ATP + H2O + phosphate(out) = ADP + H(+) + 2 phosphate(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The OBJECT represents a chemical reaction, whereas the SUBJECT represents a molecular function that triggers this reaction. Moreover, the number of phosphates in the reaction products not correctly stated in the SUBJECT.",1.0,skos:relatedMatch,Enable rearrangement from ATP + H2O + 1 phosphate(out) to ADP + H(+) + 2 phosphate(in) via molecular operation; Reaction: ATP + H2O + phosphate(out) = ADP + H(+) + 2 phosphate(in),gpt4full-generic
+GO:0015415,RHEA:24440,6,0.7000000000000001,"Name: ATPase-coupled phosphate ion transmembrane transporter activity
+Definition: Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + phosphate(out) = ADP + phosphate + phosphate(in).
+Relationships:","Name: ATP + H2O + phosphate(out) = ADP + H(+) + 2 phosphate(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,The subject and object are not related. The subject is a type of transporter that moves ions across a membrane using ATP hydrolysis energy. The object is a chemical reaction equation. They are not equivalent or closely related concepts.,0.1,"Change to a predicate that relates the subject to a component of the chemical reaction, such as 'has reactant' or 'is involved in'","None; Change to a concept related to the chemical reaction, such as a specific reactant or product.",groq-llama-generic
+GO:0015415,RHEA:24440,6,0.7000000000000001,"Name: ATPase-coupled phosphate ion transmembrane transporter activity
+Definition: Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + phosphate(out) = ADP + phosphate + phosphate(in).
+Relationships:","Name: ATP + H2O + phosphate(out) = ADP + H(+) + 2 phosphate(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent an exact match, although they are related. The SUBJECT is a type of transporter activity that drives the transfer of phosphate ions across a membrane using ATP hydrolysis. The OBJECT represents the actual reaction catalyzed by this transporter, but it differs from the definition provided for the SUBJECT in terms of proton (H+) and hydroxide ion (OH-) balance. The PREDICATE 'skos:exactMatch' is not accurate here.",0.1,"Change to a more suitable relationship, such as 'rdfs:seeAlso' or 'skos:relatedMatch'",None; Adjust to match the definition provided for the SUBJECT: ATP + H2O + phosphate(out) = ADP + OH- + 2 phosphate(in),mixtral-prompted
+GO:0015415,RHEA:24440,6,0.7000000000000001,"Name: ATPase-coupled phosphate ion transmembrane transporter activity
+Definition: Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + phosphate(out) = ADP + phosphate + phosphate(in).
+Relationships:","Name: ATP + H2O + phosphate(out) = ADP + H(+) + 2 phosphate(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not have an exact match in terms of the reaction they describe. The SUBJECT describes the transport activity of a phosphate ion using ATP, while the OBJECT describes the hydrolysis of ATP with water and phosphate. The chemical reactions are not equivalent.",1.0,,; ,gpt3t-prompted
+GO:0015415,RHEA:24440,6,0.7000000000000001,"Name: ATPase-coupled phosphate ion transmembrane transporter activity
+Definition: Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + phosphate(out) = ADP + phosphate + phosphate(in).
+Relationships:","Name: ATP + H2O + phosphate(out) = ADP + H(+) + 2 phosphate(in)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The chemical reaction described does not exactly match the activity of the ATPase-coupled phosphate ion transmembrane transporter. The reaction formula for the object includes the generation of H(+) and 2 phosphate ions in, which does not explicitly align with the expected single phosphate ion transfer detailed in the subject. The entity in question seems to more specifically describe a stoichiometric equation rather than an activity.",1.0,,"; Change to a more general description of ATPase-coupled phosphate ion transmembrane transporter activity, rather than a specific chemical equation",gpt-4-generic
+GO:0016690,RHEA:30271,6,0.7000000000000001,"Name: diarylpropane peroxidase activity
+Definition: Catalysis of the reaction: (3,4-dimethoxyphenyl)methanol + H2O2 = 3,4-dimethoxybenzaldehyde + 2 H2O.
+Relationships:","Name: 2 (3,4-dimethoxyphenyl)methanol + H2O2 = 2 (3,4-dimethoxyphenyl)methanol radical + 2 H2O
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject refers to an enzyme activity that catalyzes a specific reaction, while the object is the chemical reaction itself. These are related but distinct concepts.",1.0,skos:closeMatch,; ,claude-3-opus-generic
+GO:0016690,RHEA:30271,6,0.7000000000000001,"Name: diarylpropane peroxidase activity
+Definition: Catalysis of the reaction: (3,4-dimethoxyphenyl)methanol + H2O2 = 3,4-dimethoxybenzaldehyde + 2 H2O.
+Relationships:","Name: 2 (3,4-dimethoxyphenyl)methanol + H2O2 = 2 (3,4-dimethoxyphenyl)methanol radical + 2 H2O
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are not an exact match. The SUBJECT refers to the catalysis of a certain reaction, while the OBJECT appears to refer to the reaction itself, including the outputs, and the quantities differ.",1.0,Change PREDICATE to 'is involved in',None; Change OBJECT name and definition to reflect the enzyme activity in the process of the reaction,gpt4full-generic
+GO:0016690,RHEA:30271,6,0.7000000000000001,"Name: diarylpropane peroxidase activity
+Definition: Catalysis of the reaction: (3,4-dimethoxyphenyl)methanol + H2O2 = 3,4-dimethoxybenzaldehyde + 2 H2O.
+Relationships:","Name: 2 (3,4-dimethoxyphenyl)methanol + H2O2 = 2 (3,4-dimethoxyphenyl)methanol radical + 2 H2O
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object are not related as described. The subject refers to an enzyme activity that catalyzes a specific reaction, while the object describes a different reaction that does not match the one in the subject.",0.1,"The predicate 'skos:exactMatch' is not appropriate here, as the subject and object are not equivalent. Consider changing to a more appropriate predicate such as 'rdfs:seeAlso' to indicate a related but non-identical concept.","None; Modify to: '(3,4-dimethoxyphenyl)methanol + H2O2 = 3,4-dimethoxybenzaldehyde + 2 H2O' to match the reaction in the subject",groq-llama-generic
+GO:0016690,RHEA:30271,6,0.7000000000000001,"Name: diarylpropane peroxidase activity
+Definition: Catalysis of the reaction: (3,4-dimethoxyphenyl)methanol + H2O2 = 3,4-dimethoxybenzaldehyde + 2 H2O.
+Relationships:","Name: 2 (3,4-dimethoxyphenyl)methanol + H2O2 = 2 (3,4-dimethoxyphenyl)methanol radical + 2 H2O
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction. While they both involve 3,4-dimethoxyphenylmethanol and H2O2, the subject describes a complete reaction with specific products, while the object only describes an intermediate step in a reaction.",0.1,,"None; Modify to represent a complete reaction with specific products: 2 (3,4-dimethoxyphenyl)methanol + H2O2 = 2 3,4-dimethoxybenzaldehyde + 4 H2O",mixtral-prompted
+GO:0016690,RHEA:30271,6,0.7000000000000001,"Name: diarylpropane peroxidase activity
+Definition: Catalysis of the reaction: (3,4-dimethoxyphenyl)methanol + H2O2 = 3,4-dimethoxybenzaldehyde + 2 H2O.
+Relationships:","Name: 2 (3,4-dimethoxyphenyl)methanol + H2O2 = 2 (3,4-dimethoxyphenyl)methanol radical + 2 H2O
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed skos:exactMatch between the two entities is not accurate. While both reactions involve (3,4-dimethoxyphenyl)methanol and H2O2, the products differ. The SUBJECT reaction forms 3,4-dimethoxybenzaldehyde and 2 H2O, whereas the OBJECT reaction forms (3,4-dimethoxyphenyl)methanol radical and 2 H2O.",1.0,,; ,gpt3t-prompted
+GO:0016690,RHEA:30271,6,0.7000000000000001,"Name: diarylpropane peroxidase activity
+Definition: Catalysis of the reaction: (3,4-dimethoxyphenyl)methanol + H2O2 = 3,4-dimethoxybenzaldehyde + 2 H2O.
+Relationships:","Name: 2 (3,4-dimethoxyphenyl)methanol + H2O2 = 2 (3,4-dimethoxyphenyl)methanol radical + 2 H2O
+Definition: None
+Relationships:",oio:hasDbXref,True,"The substrate and product details in the SUBJECT and OBJECT descriptions do not fully match. The SUBJECT talks about the conversion of (3,4-dimethoxyphenyl)methanol to 3,4-dimethoxybenzaldehyde, while the OBJECT describes the formation of (3,4-dimethoxyphenyl)methanol radical, indicating a different reaction pathway or intermediate.",1.0,,"; Update OBJECT to reflect the same reaction as described for the SUBJECT, specifically the conversion to 3,4-dimethoxybenzaldehyde.",gpt-4-generic
+GO:0018763,RHEA:23092,6,0.7000000000000001,"Name: hydroxydechloroatrazine ethylaminohydrolase activity
+Definition: Catalysis of the reaction: 4-(ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine + H2O = N-isopropylammelide + ethylamine.
+Relationships:","Name: H(+) + H2O + hydroxyatrazine = ethylamine + N-isopropylammelide
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject is an enzyme activity that catalyzes a specific reaction, while the object is the reaction itself. An enzyme activity is not an exact match to the chemical reaction it catalyzes.",1.0,skos:closeMatch,; ,claude-3-opus-generic
+GO:0018763,RHEA:23092,6,0.7000000000000001,"Name: hydroxydechloroatrazine ethylaminohydrolase activity
+Definition: Catalysis of the reaction: 4-(ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine + H2O = N-isopropylammelide + ethylamine.
+Relationships:","Name: H(+) + H2O + hydroxyatrazine = ethylamine + N-isopropylammelide
+Definition: None
+Relationships:",oio:hasDbXref,True,The SUBJECT mentions the enzymatic action on a specific compound 'hydroxydechloroatrazine' while the OBJECT only mentions 'hydroxyatrazine'. The two are not identical compounds and hence cannot be treated as skos:exactMatch.,1.0,,; Replace 'hydroxyatrazine' with 'hydroxydechloroatrazine',gpt4full-generic
+GO:0018763,RHEA:23092,6,0.7000000000000001,"Name: hydroxydechloroatrazine ethylaminohydrolase activity
+Definition: Catalysis of the reaction: 4-(ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine + H2O = N-isopropylammelide + ethylamine.
+Relationships:","Name: H(+) + H2O + hydroxyatrazine = ethylamine + N-isopropylammelide
+Definition: None
+Relationships:",oio:hasDbXref,True,"The PREDICATE is skos:exactMatch which implies that the SUBJECT and OBJECT should be identical. However, they are not. The SUBJECT is a specific enzymatic activity, while the OBJECT is a chemical reaction equation.",0.1,Change to a more appropriate PREDICATE such as 'produces' or 'yields' to reflect the relationship between the SUBJECT and the MODIFIED OBJECT,None needed; Change to 'N-isopropylammelide and ethylamine formation from hydroxyatrazine' to reflect the reaction products,groq-llama-generic
+GO:0018763,RHEA:23092,6,0.7000000000000001,"Name: hydroxydechloroatrazine ethylaminohydrolase activity
+Definition: Catalysis of the reaction: 4-(ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine + H2O = N-isopropylammelide + ethylamine.
+Relationships:","Name: H(+) + H2O + hydroxyatrazine = ethylamine + N-isopropylammelide
+Definition: None
+Relationships:",oio:hasDbXref,True,"The PREDICATE 'skos:exactMatch' is not accurate as the SUBJECT and OBJECT do not represent identical concepts. The SUBJECT refers to an enzyme activity, while the OBJECT represents a chemical reaction. The reaction described in the SUBJECT definition matches the one in the OBJECT, but they are not equivalent conceptually.",0.1,Change to 'rdfs:seeAlso' or another less stringent predicate.,"None; Change the name and relationships to 'Name: Hydroxydechloroatrazine ethylaminohydrolase; Relationships: Catalyzes the reaction: 4-(ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine + H2O = N-isopropylammelide + ethylamine.'",mixtral-prompted
+GO:0018763,RHEA:23092,6,0.7000000000000001,"Name: hydroxydechloroatrazine ethylaminohydrolase activity
+Definition: Catalysis of the reaction: 4-(ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine + H2O = N-isopropylammelide + ethylamine.
+Relationships:","Name: H(+) + H2O + hydroxyatrazine = ethylamine + N-isopropylammelide
+Definition: None
+Relationships:",oio:hasDbXref,True,The mapping is incorrect as the reactions are not equivalent. The substrates and products involved in the reactions do not match.,1.0,No modifications needed,; ,gpt3t-prompted
+GO:0018763,RHEA:23092,6,0.7000000000000001,"Name: hydroxydechloroatrazine ethylaminohydrolase activity
+Definition: Catalysis of the reaction: 4-(ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine + H2O = N-isopropylammelide + ethylamine.
+Relationships:","Name: H(+) + H2O + hydroxyatrazine = ethylamine + N-isopropylammelide
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes an enzyme activity specifying a catalytic process, while the OBJECT represents a chemical reaction equation. Despite both referring to the same chemical transformation, ontologically, an enzyme activity (a biological function) is not an exact match for a chemical reaction (a process). The SUBJECT should be mapped to an enzymatic function or activity, and the OBJECT should represent a specific reaction process or pathway.",1.0,,; Clarify as an enzymatic reaction involving the specified enzyme,gpt-4-generic
+GO:0018807,RHEA:39651,6,0.7000000000000001,"Name: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA hydratase activity
+Definition: Catalysis of the reaction: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA + H2O = 2,6-dihydroxycyclohexane-1-carboxyl-CoA.
+Relationships:","Name: 6-oxocyclohex-1-ene-1-carbonyl-CoA + 2 H2O = 3-hydroxy-6-carboxyhexanoyl-CoA + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT describe different chemical reactions. The SUBJECT reaction involves the hydration of 6-hydroxycyclohex-1-ene-1-carboxyl-CoA to form 2,6-dihydroxycyclohexane-1-carboxyl-CoA. The OBJECT reaction involves the hydration of 6-oxocyclohex-1-ene-1-carbonyl-CoA to form 3-hydroxy-6-carboxyhexanoyl-CoA. These are distinct chemical transformations.",1.0,skos:differentFrom,; ,claude-3-opus-generic
+GO:0018807,RHEA:39651,6,0.7000000000000001,"Name: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA hydratase activity
+Definition: Catalysis of the reaction: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA + H2O = 2,6-dihydroxycyclohexane-1-carboxyl-CoA.
+Relationships:","Name: 6-oxocyclohex-1-ene-1-carbonyl-CoA + 2 H2O = 3-hydroxy-6-carboxyhexanoyl-CoA + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The definitions and names of the SUBJECT and OBJECT do not match, indicating they are not the same.",1.0,Change skos:exactMatch to a different predicate that represents 'similarTo' or 'relatedTo',; Revise the name and definition in line with 6-hydroxycyclohex-1-ene-1-carboxyl-CoA hydratase activity,gpt4full-generic
+GO:0018807,RHEA:39651,6,0.7000000000000001,"Name: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA hydratase activity
+Definition: Catalysis of the reaction: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA + H2O = 2,6-dihydroxycyclohexane-1-carboxyl-CoA.
+Relationships:","Name: 6-oxocyclohex-1-ene-1-carbonyl-CoA + 2 H2O = 3-hydroxy-6-carboxyhexanoyl-CoA + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not have a direct relationship. The subject is a hydratase enzyme that catalyzes a reaction with water, while the object appears to be a chemical reaction itself. The predicate 'skos:exactMatch' is not accurate here, as the concepts are not equivalent.",0.1,"Change the predicate to a more suitable option, such as 'skos:related' or 'dc:relation', to reflect the indirect relationship between the subject and object.",None; Change the object to a hydratase enzyme or a substrate that can be directly linked to the subject enzyme's reaction.,groq-llama-generic
+GO:0018807,RHEA:39651,6,0.7000000000000001,"Name: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA hydratase activity
+Definition: Catalysis of the reaction: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA + H2O = 2,6-dihydroxycyclohexane-1-carboxyl-CoA.
+Relationships:","Name: 6-oxocyclohex-1-ene-1-carbonyl-CoA + 2 H2O = 3-hydroxy-6-carboxyhexanoyl-CoA + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same reaction. The SUBJECT describes a reaction where 6-hydroxycyclohex-1-ene-1-carboxyl-CoA is converted to 2,6-dihydroxycyclohexane-1-carboxyl-CoA with the addition of water. The OBJECT describes a different reaction where 6-oxocyclohex-1-ene-1-carbonyl-CoA is converted to 3-hydroxy-6-carboxyhexanoyl-CoA with the addition of water and a proton.",0.1,skos:closeMatch,; ,mixtral-prompted
+GO:0018807,RHEA:39651,6,0.7000000000000001,"Name: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA hydratase activity
+Definition: Catalysis of the reaction: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA + H2O = 2,6-dihydroxycyclohexane-1-carboxyl-CoA.
+Relationships:","Name: 6-oxocyclohex-1-ene-1-carbonyl-CoA + 2 H2O = 3-hydroxy-6-carboxyhexanoyl-CoA + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed skos:exactMatch relationship between the two entities is incorrect. The reactions they describe involve different substrates and products.,1.0,,; ,gpt3t-prompted
+GO:0018807,RHEA:39651,6,0.7000000000000001,"Name: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA hydratase activity
+Definition: Catalysis of the reaction: 6-hydroxycyclohex-1-ene-1-carboxyl-CoA + H2O = 2,6-dihydroxycyclohexane-1-carboxyl-CoA.
+Relationships:","Name: 6-oxocyclohex-1-ene-1-carbonyl-CoA + 2 H2O = 3-hydroxy-6-carboxyhexanoyl-CoA + H(+)
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT refer to different reactions based on their names and the entities involved, indicating they cannot be an exact match. The SUBJECT catalyzes a hydration reaction of 6-hydroxycyclohex-1-ene-1-carboxyl-CoA, while the OBJECT implies a different reaction starting from 6-oxocyclohex-1-ene-1-carbonyl-CoA. The products of these reactions are distinct, indicating different enzymatic activities.",1.0,,; ,gpt-4-generic
+GO:0030791,RHEA:69460,6,0.7000000000000001,"Name: arsenite methyltransferase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + arsenite = S-adenosyl-L-homocysteine + methylarsonate.
+Relationships:","Name: [thioredoxin]-dithiol + arsenic triglutathione + 2 H2O + S-adenosyl-L-methionine = [thioredoxin]-disulfide + 3 glutathione + H(+) + methylarsonous acid + S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject describes an enzyme activity that catalyzes a specific chemical reaction, while the object is the chemical reaction itself written out as a chemical equation. These are related concepts but not an exact match, as the subject is the enzyme's function and the object is the chemical process that results from that function.",1.0,skos:closeMatch,; ,claude-3-opus-generic
+GO:0030791,RHEA:69460,6,0.7000000000000001,"Name: arsenite methyltransferase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + arsenite = S-adenosyl-L-homocysteine + methylarsonate.
+Relationships:","Name: [thioredoxin]-dithiol + arsenic triglutathione + 2 H2O + S-adenosyl-L-methionine = [thioredoxin]-disulfide + 3 glutathione + H(+) + methylarsonous acid + S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT denote different biochemical reactions, and therefore cannot be an exact match.",1.0,A more appropriate PREDICATE might be relatedTo or participatesIn,No modification needed; No modification needed,gpt4full-generic
+GO:0030791,RHEA:69460,6,0.7000000000000001,"Name: arsenite methyltransferase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + arsenite = S-adenosyl-L-homocysteine + methylarsonate.
+Relationships:","Name: [thioredoxin]-dithiol + arsenic triglutathione + 2 H2O + S-adenosyl-L-methionine = [thioredoxin]-disulfide + 3 glutathione + H(+) + methylarsonous acid + S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate 'skos:exactMatch' is incorrect as the SUBJECT and OBJECT are not identical. The SUBJECT is a specific enzymatic activity, while the OBJECT is a chemical reaction. The reaction includes the product of the SUBJECT, but it is not the same as the SUBJECT itself.",0.1,Change to 'skos:relatedMatch' to indicate a close relationship between the SUBJECT and the modified OBJECT,None; Change to 'methylarsonate formation' for a closer mapping,groq-llama-generic
+GO:0030791,RHEA:69460,6,0.7000000000000001,"Name: arsenite methyltransferase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + arsenite = S-adenosyl-L-homocysteine + methylarsonate.
+Relationships:","Name: [thioredoxin]-dithiol + arsenic triglutathione + 2 H2O + S-adenosyl-L-methionine = [thioredoxin]-disulfide + 3 glutathione + H(+) + methylarsonous acid + S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The OBJECT does not represent the same reaction as the SUBJECT. The product in the OBJECT should be 'methylarsonate' instead of 'methylarsonous acid'. Also, the reactant S-adenosyl-L-methionine and product S-adenosyl-L-homocysteine are missing from the OBJECT.",0.1,None,"None; Replace 'methylarsonous acid' with 'methylarsonate', and add reactants S-adenosyl-L-methionine and glutathione, and products S-adenosyl-L-homocysteine and 3 glutathione to the OBJECT.",mixtral-prompted
+GO:0030791,RHEA:69460,6,0.7000000000000001,"Name: arsenite methyltransferase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + arsenite = S-adenosyl-L-homocysteine + methylarsonate.
+Relationships:","Name: [thioredoxin]-dithiol + arsenic triglutathione + 2 H2O + S-adenosyl-L-methionine = [thioredoxin]-disulfide + 3 glutathione + H(+) + methylarsonous acid + S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed mapping is incorrect as the reactions described for the SUBJECT and OBJECT are not equivalent. The SUBJECT describes the transfer of a methyl group from arsenite to S-adenosyl-L-methionine, resulting in the formation of methylarsonate. On the other hand, the OBJECT involves a more complex reaction with multiple reactants and products including thioredoxin and glutathione, along with the formation of methylarsonous acid. These reactions do not match.",1.0,,; ,gpt3t-prompted
+GO:0030791,RHEA:69460,6,0.7000000000000001,"Name: arsenite methyltransferase activity
+Definition: Catalysis of the reaction: S-adenosyl-L-methionine + arsenite = S-adenosyl-L-homocysteine + methylarsonate.
+Relationships:","Name: [thioredoxin]-dithiol + arsenic triglutathione + 2 H2O + S-adenosyl-L-methionine = [thioredoxin]-disulfide + 3 glutathione + H(+) + methylarsonous acid + S-adenosyl-L-homocysteine
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes the activity of an arsenite methyltransferase enzyme, focusing on the catalysis of arsenite to methylarsonate using S-adenosyl-L-methionine as a methyl donor. The OBJECT describes a specific chemical reaction that involves [thioredoxin]-dithiol and arsenic triglutathione among other reactants, leading to a different set of products including methylarsonous acid. Even though both involve arsenic compounds and a methylation process using S-adenosyl-L-methionine, the reactants and products differ significantly, pointing to a different biochemical context. Therefore, these two can't be considered an exact match.",1.0,,; ,gpt-4-generic
+GO:0031132,RHEA:21596,6,0.7000000000000001,"Name: serine 3-dehydrogenase activity
+Definition: Catalysis of the reaction: L-serine + NADP+ = L-alpha-formylglycine + 2 H+ + NADPH.
+Relationships:","Name: L-serine + NADP(+) = 2-aminomalonate semialdehyde + H(+) + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The reaction described in the SUBJECT is not the same as the reaction in the OBJECT name. In the SUBJECT, L-serine is converted to L-alpha-formylglycine, while in the OBJECT, L-serine is converted to 2-aminomalonate semialdehyde. These are different chemical products.",1.0,skos:closeMatch,; L-serine + NADP+ = L-alpha-formylglycine + 2 H+ + NADPH,claude-3-opus-generic
+GO:0031132,RHEA:21596,6,0.7000000000000001,"Name: serine 3-dehydrogenase activity
+Definition: Catalysis of the reaction: L-serine + NADP+ = L-alpha-formylglycine + 2 H+ + NADPH.
+Relationships:","Name: L-serine + NADP(+) = 2-aminomalonate semialdehyde + H(+) + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object are not exact matches. While they both involve a reaction with L-serine and NADP+, the products of the reactions are different, rendering an exact match inaccurate.",1.0,"The predicate may be modified to skos:closeMatch to reflect that the reactions are similar, but not identical.",No modifications necessary; The equation needs to be corrected to: L-serine + NADP+ = L-alpha-formylglycine + 2 H+ + NADPH,gpt4full-generic
+GO:0031132,RHEA:21596,6,0.7000000000000001,"Name: serine 3-dehydrogenase activity
+Definition: Catalysis of the reaction: L-serine + NADP+ = L-alpha-formylglycine + 2 H+ + NADPH.
+Relationships:","Name: L-serine + NADP(+) = 2-aminomalonate semialdehyde + H(+) + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not have an exact match relationship. The SUBJECT is an enzyme that catalyzes a specific reaction involving L-serine and NADP+, while the OBJECT is a chemical reaction. They are not equivalent concepts.",0.1,Change to a more appropriate predicate that describes the relationship between the SUBJECT and a specific chemical reaction it catalyzes,None; Change to the specific chemical reaction: L-serine + NADP(+) = 2-aminomalonate semialdehyde + H(+) + NADPH,groq-llama-generic
+GO:0031132,RHEA:21596,6,0.7000000000000001,"Name: serine 3-dehydrogenase activity
+Definition: Catalysis of the reaction: L-serine + NADP+ = L-alpha-formylglycine + 2 H+ + NADPH.
+Relationships:","Name: L-serine + NADP(+) = 2-aminomalonate semialdehyde + H(+) + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed mapping between 'serine 3-dehydrogenase activity' and the reaction 'L-serine + NADP(+) = 2-aminomalonate semialdehyde + H(+) + NADPH' is not accurate. The enzyme serine 3-dehydrogenase catalyzes a different reaction with specific substrates and products.,0.1,"Use skos:relatedMatch instead of skos:exactMatch, as the reactions are related but not identical.",; Replace '2-aminomalonate semialdehyde' with 'L-alpha-formylglycine',mixtral-prompted
+GO:0031132,RHEA:21596,6,0.7000000000000001,"Name: serine 3-dehydrogenase activity
+Definition: Catalysis of the reaction: L-serine + NADP+ = L-alpha-formylglycine + 2 H+ + NADPH.
+Relationships:","Name: L-serine + NADP(+) = 2-aminomalonate semialdehyde + H(+) + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The PREDICATE skos:exactMatch is not appropriate for these entities. While the reactions are related and involve similar components, they are not equivalent.",1.0,,; ,gpt3t-prompted
+GO:0031132,RHEA:21596,6,0.7000000000000001,"Name: serine 3-dehydrogenase activity
+Definition: Catalysis of the reaction: L-serine + NADP+ = L-alpha-formylglycine + 2 H+ + NADPH.
+Relationships:","Name: L-serine + NADP(+) = 2-aminomalonate semialdehyde + H(+) + NADPH
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT catalyzes a different reaction (creating L-alpha-formylglycine) than what is described in the OBJECT (forming 2-aminomalonate semialdehyde). The chemical products of the reactions are different, indicating the mappings are not exact matches.",1.0,,; Change the product from 2-aminomalonate semialdehyde to L-alpha-formylglycine,gpt-4-generic
+GO:0033752,RHEA:12877,6,0.7000000000000001,"Name: acetylacetone-cleaving enzyme activity
+Definition: Catalysis of the reaction: pentane-2,4-dione + O2 = acetate + 2-oxopropanal.
+Relationships:","Name: acetylacetone + O2 = acetate + H(+) + methylglyoxal
+Definition: None
+Relationships:",oio:hasDbXref,True,"The mapping is not exact. The subject refers to an enzyme activity that catalyzes the cleavage of acetylacetone (pentane-2,4-dione) into acetate and 2-oxopropanal. The object refers to the chemical reaction itself, but uses the synonym methylglyoxal for 2-oxopropanal and includes H(+) as a product which is not mentioned in the subject.",1.0,skos:closeMatch,; acetylacetone + O2 = acetate + 2-oxopropanal,claude-3-opus-generic
+GO:0033752,RHEA:12877,6,0.7000000000000001,"Name: acetylacetone-cleaving enzyme activity
+Definition: Catalysis of the reaction: pentane-2,4-dione + O2 = acetate + 2-oxopropanal.
+Relationships:","Name: acetylacetone + O2 = acetate + H(+) + methylglyoxal
+Definition: None
+Relationships:",oio:hasDbXref,True,"The names are different but the reactions described are similar. However, the OBJECT includes a proton (H(+)) which is not mentioned in the SUBJECT and it states methylglyoxal instead of 2-oxopropanal. Also, the OBJECT lacks a definition.",1.0,No modifications needed for the PREDICATE,"No modifications needed for the SUBJECT; Edit the OBJECT description to 'acetylacetone + O2 = acetate + 2-oxopropanal'. Also, provide it with a suitable definition as 'Catalysis of the reaction: pentane-2,4-dione + O2 = acetate + 2-oxopropanal'.",gpt4full-generic
+GO:0033752,RHEA:12877,6,0.7000000000000001,"Name: acetylacetone-cleaving enzyme activity
+Definition: Catalysis of the reaction: pentane-2,4-dione + O2 = acetate + 2-oxopropanal.
+Relationships:","Name: acetylacetone + O2 = acetate + H(+) + methylglyoxal
+Definition: None
+Relationships:",oio:hasDbXref,True,"The objects in the subject and object do not match. The subject describes the enzymatic activity of catalyzing the reaction: pentane-2,4-dione + O2 = acetate + 2-oxopropanal, while the object describes the reaction: acetylacetone + O2 = acetate + H(+) + methylglyoxal. These reactions are different, and the subject and object should be modified accordingly.",0.1,skos:relatedMatch,"pentane-2,4-dione-cleaving enzyme activity; acetylacetone + O2 = acetate + H(+) + methylglyoxal -> acetylacetone + O2 = pentane-2,4-dione + H(+) + methylglyoxal",groq-llama-generic
+GO:0033752,RHEA:12877,6,0.7000000000000001,"Name: acetylacetone-cleaving enzyme activity
+Definition: Catalysis of the reaction: pentane-2,4-dione + O2 = acetate + 2-oxopropanal.
+Relationships:","Name: acetylacetone + O2 = acetate + H(+) + methylglyoxal
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent identical reactions. While they are similar, the OBJECT includes H(+) as a product instead of 2-oxopropanal as in the SUBJECT.",0.1,,; Change H(+) to 2-oxopropanal,mixtral-prompted
+GO:0033752,RHEA:12877,6,0.7000000000000001,"Name: acetylacetone-cleaving enzyme activity
+Definition: Catalysis of the reaction: pentane-2,4-dione + O2 = acetate + 2-oxopropanal.
+Relationships:","Name: acetylacetone + O2 = acetate + H(+) + methylglyoxal
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed skos:exactMatch between the two entities is incorrect as the reactions they describe are not equivalent. The SUBJECT describes the reaction involving pentane-2,4-dione and yielding acetate and 2-oxopropanal, while the OBJECT describes a different reaction involving acetylacetone, acetate, H(+), and methylglyoxal. The chemical participants are not the same, indicating a mismatch in the proposed mapping.",1.0,,; ,gpt3t-prompted
+GO:0033752,RHEA:12877,6,0.7000000000000001,"Name: acetylacetone-cleaving enzyme activity
+Definition: Catalysis of the reaction: pentane-2,4-dione + O2 = acetate + 2-oxopropanal.
+Relationships:","Name: acetylacetone + O2 = acetate + H(+) + methylglyoxal
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT refers to 'acetylacetone-cleaving enzyme activity' with the reaction output as 'acetate + 2-oxopropanal', while the OBJECT describes a chemical reaction 'acetylacetone + O2 = acetate + H(+) + methylglyoxal'. The products of the reaction differ ('2-oxopropanal' in the SUBJECT vs. 'H(+) + methylglyoxal' in the OBJECT), indicating these are related but not identical concepts. For exact mapping, the reactions should match perfectly.",1.0,,; ,gpt-4-generic
+GO:0034018,RHEA:22568,6,0.7000000000000001,"Name: ascopyrone tautomerase activity
+Definition: Catalysis of the reaction: 1,5-anhydro-4-deoxy-D-glycero-hex-3-en-2-ulose = 1,5-anhydro-4-deoxy-D-glycero-hex-1-en-3-ulose.
+Relationships:","Name: ascopyrone M = ascopyrone P
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject is describing an enzymatic activity, while the object appears to be describing a chemical reaction. These are not the same concept and an exact match is not appropriate.",1.0,"skos:narrowMatch may be more appropriate, as the enzymatic activity enables the chemical reaction, but they are distinct concepts.",; ,claude-3-opus-generic
+GO:0034018,RHEA:22568,6,0.7000000000000001,"Name: ascopyrone tautomerase activity
+Definition: Catalysis of the reaction: 1,5-anhydro-4-deoxy-D-glycero-hex-3-en-2-ulose = 1,5-anhydro-4-deoxy-D-glycero-hex-1-en-3-ulose.
+Relationships:","Name: ascopyrone M = ascopyrone P
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not match. The subject is an enzyme activity, while the object is a chemical reaction. They are related but not identical concepts. Also, the object requires proper definition.",1.0,Consider changing the predicate to a 'related' one rather than 'exactMatch',; Should define the object properly,gpt4full-generic
+GO:0034018,RHEA:22568,6,0.7000000000000001,"Name: ascopyrone tautomerase activity
+Definition: Catalysis of the reaction: 1,5-anhydro-4-deoxy-D-glycero-hex-3-en-2-ulose = 1,5-anhydro-4-deoxy-D-glycero-hex-1-en-3-ulose.
+Relationships:","Name: ascopyrone M = ascopyrone P
+Definition: None
+Relationships:",oio:hasDbXref,True,"The PREDICATE 'skos:exactMatch' is incorrect as the SUBJECT and OBJECT are not identical. The SUBJECT is a specific enzymatic activity, while the OBJECT is a chemical reaction. The confidence is low because although they are not identical, they are related.",0.1,Change to 'skos:relatedMatch' for a more accurate reflection of the relationship between SUBJECT and OBJECT,"None; Change to '1,5-anhydro-4-deoxy-D-glycero-hex-1-en-3-ulose' for a closer mapping",groq-llama-generic
+GO:0034018,RHEA:22568,6,0.7000000000000001,"Name: ascopyrone tautomerase activity
+Definition: Catalysis of the reaction: 1,5-anhydro-4-deoxy-D-glycero-hex-3-en-2-ulose = 1,5-anhydro-4-deoxy-D-glycero-hex-1-en-3-ulose.
+Relationships:","Name: ascopyrone M = ascopyrone P
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same concept. The SUBJECT is a specific enzymatic activity, while the OBJECT is a chemical equilibrium between two forms of ascopyrone. A more accurate PREDICATE might be skos:related, and subject/object modifications could involve specifying that the SUBJECT is the enzyme that catalyzes the reaction represented by the OBJECT.",0.1,skos:related,ascopyrone tautomerase; ascopyrone M <=> ascopyrone P,mixtral-prompted
+GO:0034018,RHEA:22568,6,0.7000000000000001,"Name: ascopyrone tautomerase activity
+Definition: Catalysis of the reaction: 1,5-anhydro-4-deoxy-D-glycero-hex-3-en-2-ulose = 1,5-anhydro-4-deoxy-D-glycero-hex-1-en-3-ulose.
+Relationships:","Name: ascopyrone M = ascopyrone P
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed mapping between 'ascopyrone tautomerase activity' and 'ascopyrone M = ascopyrone P' is inaccurate. The reaction catalyzed by 'ascopyrone tautomerase activity' involves the conversion of 1,5-anhydro-4-deoxy-D-glycero-hex-3-en-2-ulose to 1,5-anhydro-4-deoxy-D-glycero-hex-1-en-3-ulose, while 'ascopyrone M = ascopyrone P' does not match this reaction.",1.0,,; ,gpt3t-prompted
+GO:0034018,RHEA:22568,6,0.7000000000000001,"Name: ascopyrone tautomerase activity
+Definition: Catalysis of the reaction: 1,5-anhydro-4-deoxy-D-glycero-hex-3-en-2-ulose = 1,5-anhydro-4-deoxy-D-glycero-hex-1-en-3-ulose.
+Relationships:","Name: ascopyrone M = ascopyrone P
+Definition: None
+Relationships:",oio:hasDbXref,True,"While both the SUBJECT and OBJECT refer to a reaction involving ascopyrone, the SUBJECT describes a specific enzyme activity (catalyzing a reaction), whereas the OBJECT refers directly to the chemical reaction itself (ascopyrone M converting to ascopyrone P) without specifying it as an enzymatic process. Thus, they are related but not an exact match.",1.0,,"; Specify an enzyme activity catalyzing the ascopyrone M to ascopyrone P reaction, if applicable",gpt-4-generic
+GO:0034026,RHEA:44332,6,0.7000000000000001,"Name: L-amino-acid alpha-ligase activity
+Definition: Catalysis of the reaction: ATP + an L-amino acid + an L-amino acid = ADP + phosphate + L-aminoacyl-L-amino acid.
+Relationships:","Name: ATP + L-alanine + L-anticapsin = ADP + bacilysin + H(+) + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT refers to a general enzymatic activity that describes the ligation of any two L-amino acids. The OBJECT is a specific chemical reaction involving particular substrates (L-alanine and L-anticapsin) and products (bacilysin). An exact match requires the concepts to be identical, but there is a mismatch in scope here.",1.0,skos:broadMatch,; ,claude-3-opus-generic
+GO:0034026,RHEA:44332,6,0.7000000000000001,"Name: L-amino-acid alpha-ligase activity
+Definition: Catalysis of the reaction: ATP + an L-amino acid + an L-amino acid = ADP + phosphate + L-aminoacyl-L-amino acid.
+Relationships:","Name: ATP + L-alanine + L-anticapsin = ADP + bacilysin + H(+) + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes a generic reaction involving L-amino acids, while the OBJECT refers to a very specific reaction with particular L-amino acids (L-alanine and L-anticapsin). Thus, these two entities are not exact matches.",1.0,skos:broadMatch,; ,gpt4full-generic
+GO:0034026,RHEA:44332,6,0.7000000000000001,"Name: L-amino-acid alpha-ligase activity
+Definition: Catalysis of the reaction: ATP + an L-amino acid + an L-amino acid = ADP + phosphate + L-aminoacyl-L-amino acid.
+Relationships:","Name: ATP + L-alanine + L-anticapsin = ADP + bacilysin + H(+) + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not have an exact match relationship. While both the subject and object involve chemical reactions with ATP and an L-amino acid, the object reaction produces bacilysin and H(+) instead of an L-aminoacyl-L-amino acid and phosphate as in the subject reaction.",0.1,Modify the predicate to: skos:closeMatch,None; Modify the object to: ATP + L-alanine = ADP + L-alpha-aminoadipate-L-alanine + phosphate to match the subject reaction,groq-llama-generic
+GO:0034026,RHEA:44332,6,0.7000000000000001,"Name: L-amino-acid alpha-ligase activity
+Definition: Catalysis of the reaction: ATP + an L-amino acid + an L-amino acid = ADP + phosphate + L-aminoacyl-L-amino acid.
+Relationships:","Name: ATP + L-alanine + L-anticapsin = ADP + bacilysin + H(+) + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same reaction. Although both involve ATP and an L-amino acid, the specific reactants and products are different.",0.1,skos:closeMatch,None; Replace 'L-alanine' with 'an L-amino acid' and 'ATP + L-alanine + L-anticapsin = ADP + bacilysin + H(+) + phosphate' with 'ATP + an L-amino acid + a compound = ADP + phosphate + a product'.,mixtral-prompted
+GO:0034026,RHEA:44332,6,0.7000000000000001,"Name: L-amino-acid alpha-ligase activity
+Definition: Catalysis of the reaction: ATP + an L-amino acid + an L-amino acid = ADP + phosphate + L-aminoacyl-L-amino acid.
+Relationships:","Name: ATP + L-alanine + L-anticapsin = ADP + bacilysin + H(+) + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed skos:exactMatch mapping between L-amino-acid alpha-ligase activity and the given reaction is incorrect. The chemical participants in the reaction do not match the substrate and product specifics of the enzyme activity.,1.0,,; ,gpt3t-prompted
+GO:0034026,RHEA:44332,6,0.7000000000000001,"Name: L-amino-acid alpha-ligase activity
+Definition: Catalysis of the reaction: ATP + an L-amino acid + an L-amino acid = ADP + phosphate + L-aminoacyl-L-amino acid.
+Relationships:","Name: ATP + L-alanine + L-anticapsin = ADP + bacilysin + H(+) + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT refers to a general enzyme activity involving the ligation of two L-amino acids in the presence of ATP, producing an L-aminoacyl-L-amino acid compound along with ADP and phosphate. The OBJECT describes a specific chemical reaction that includes the substrates ATP, L-alanine, and L-anticapsin producing ADP, bacilysin, H(+), and phosphate. These two are related but not exact matches as the SUBJECT is a general enzyme activity while the OBJECT is a specific reaction possibly catalyzed by such an enzyme. The OBJECT describes a specific instance of the broad type of reactions the SUBJECT could catalyze.",1.0,Change to 'skos:closeMatch',; ,gpt-4-generic
+GO:0034875,RHEA:47148,6,0.7000000000000001,"Name: caffeine oxidase activity
+Definition: Catalysis of the reaction: caffeine + O2 + 2 H+ + 2 e- = 1,3,7-trimethyluric acid + H2O.
+Relationships:","Name: a ubiquinone + caffeine + H2O = 1,3,7-trimethylurate + a ubiquinol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject refers to the catalytic activity of an enzyme, while the object refers to the chemical reaction catalyzed by that enzyme. These are related concepts but not an exact match, as the enzyme activity and the reaction itself are distinct entities.",1.0,skos:closeMatch,; ,claude-3-opus-generic
+GO:0034875,RHEA:47148,6,0.7000000000000001,"Name: caffeine oxidase activity
+Definition: Catalysis of the reaction: caffeine + O2 + 2 H+ + 2 e- = 1,3,7-trimethyluric acid + H2O.
+Relationships:","Name: a ubiquinone + caffeine + H2O = 1,3,7-trimethylurate + a ubiquinol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not match completely since they involve different reactions involving caffeine. Even though they end in the same product (1,3,7-trimethyluric acid), the reactants and the process are not exactly the same.",1.0,Change predicate to 'skos:closeMatch',"none; Change object to 'caffeine + O2 + 2 H+ + 2 e- = 1,3,7-trimethyluric acid + H2O' for an exact match.",gpt4full-generic
+GO:0034875,RHEA:47148,6,0.7000000000000001,"Name: caffeine oxidase activity
+Definition: Catalysis of the reaction: caffeine + O2 + 2 H+ + 2 e- = 1,3,7-trimethyluric acid + H2O.
+Relationships:","Name: a ubiquinone + caffeine + H2O = 1,3,7-trimethylurate + a ubiquinol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate 'skos:exactMatch' is not scientifically accurate here, as the SUBJECT and OBJECT are not identical. The SUBJECT refers to a specific chemical reaction involving caffeine oxidase activity, while the OBJECT refers to a different chemical reaction involving ubiquinone, caffeine, and water. The PREDICATE should be modified to reflect the 'part of' or 'component of' relationship between the two reactions.",0.1,'part of' or 'component of',; ,groq-llama-generic
+GO:0034875,RHEA:47148,6,0.7000000000000001,"Name: caffeine oxidase activity
+Definition: Catalysis of the reaction: caffeine + O2 + 2 H+ + 2 e- = 1,3,7-trimethyluric acid + H2O.
+Relationships:","Name: a ubiquinone + caffeine + H2O = 1,3,7-trimethylurate + a ubiquinol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction, although they are related. The subject describes the conversion of caffeine to 1,3,7-trimethyluric acid using O2, H+, and e-. The object describes a similar reaction but involves ubiquinone instead of O2 and does not explicitly mention H+ or e-.",0.1,,"; Modify to: 'a ubiquinone + caffeine + O2 + 2 H+ = 1,3,7-trimethylurate + a ubiquinol + 2 e-'",mixtral-prompted
+GO:0034875,RHEA:47148,6,0.7000000000000001,"Name: caffeine oxidase activity
+Definition: Catalysis of the reaction: caffeine + O2 + 2 H+ + 2 e- = 1,3,7-trimethyluric acid + H2O.
+Relationships:","Name: a ubiquinone + caffeine + H2O = 1,3,7-trimethylurate + a ubiquinol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed mapping between 'caffeine oxidase activity' and 'a ubiquinone + caffeine + H2O = 1,3,7-trimethylurate + a ubiquinol' as an exact match is inaccurate. While both involve caffeine and a product related to 1,3,7-trimethylurate, the specific reactions are different. Further examination of the chemical reactants and products is needed to make an accurate mapping.",1.0,,; ,gpt3t-prompted
+GO:0034875,RHEA:47148,6,0.7000000000000001,"Name: caffeine oxidase activity
+Definition: Catalysis of the reaction: caffeine + O2 + 2 H+ + 2 e- = 1,3,7-trimethyluric acid + H2O.
+Relationships:","Name: a ubiquinone + caffeine + H2O = 1,3,7-trimethylurate + a ubiquinol
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes an enzyme activity that specifically involves the catalysis of a reaction converting caffeine to 1,3,7-trimethyluric acid using O2, H+, and electrons. The OBJECT describes a similar reaction but involves ubiquinone and ubiquinol, not explicitly mentioned in the SUBJECt; thus, these are not an exact match due to the difference in reactants/products involved.",1.0,skos:closeMatch,; ,gpt-4-generic
+GO:0034909,RHEA:34223,6,0.7000000000000001,"Name: 6-hydroxypseudooxynicotine dehydrogenase activity
+Definition: Catalysis of the reaction: 6-hydroxypseudooxynicotine + H2O + OH- = 6-hydroxy-3-succinoylpyridine + 4 H+ + 4 e- + methylamine.
+Relationships:","Name: 6-hydroxypseudooxynicotine + A + H2O = 2,6-dihydroxypseudooxynicotine + AH2
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject is an enzymatic activity while the object appears to be a chemical reaction. An enzymatic activity catalyzes a reaction but is not the same as the reaction itself. Additionally, the products of the two reactions are different (6-hydroxy-3-succinoylpyridine in the subject vs 2,6-dihydroxypseudooxynicotine in the object). Therefore, this is not an exact match.",1.0,"skos:relatedMatch may be more appropriate, as the object is a reaction that the subject enzyme likely catalyzes",; ,claude-3-opus-generic
+GO:0034909,RHEA:34223,6,0.7000000000000001,"Name: 6-hydroxypseudooxynicotine dehydrogenase activity
+Definition: Catalysis of the reaction: 6-hydroxypseudooxynicotine + H2O + OH- = 6-hydroxy-3-succinoylpyridine + 4 H+ + 4 e- + methylamine.
+Relationships:","Name: 6-hydroxypseudooxynicotine + A + H2O = 2,6-dihydroxypseudooxynicotine + AH2
+Definition: None
+Relationships:",oio:hasDbXref,True,"The proposed ontology mapping is incorrect. The relation of the SUBJECT does not exactly match the OBJECT. It seems OBJECT lacks a proper definition and relationships are also not provided. Additionally, the reactions catalyzed by the enzyme in the SUBJECT are differently represented in the OBJECT.",1.0,skos:closeMatch can be used if OBJECT's information is corrected,No modification needed; Provide proper definition and relationships. The reaction should match with the SUBJECT's,gpt4full-generic
+GO:0034909,RHEA:34223,6,0.7000000000000001,"Name: 6-hydroxypseudooxynicotine dehydrogenase activity
+Definition: Catalysis of the reaction: 6-hydroxypseudooxynicotine + H2O + OH- = 6-hydroxy-3-succinoylpyridine + 4 H+ + 4 e- + methylamine.
+Relationships:","Name: 6-hydroxypseudooxynicotine + A + H2O = 2,6-dihydroxypseudooxynicotine + AH2
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not have a direct relationship. The SUBJECT is a catalysis reaction, while the OBJECT is a different reaction. They are not equivalent or related reactions.",0.1,"The predicate 'skos:exactMatch' is not appropriate here. A more suitable predicate might be 'skos:relatedMatch' or another less specific predicate, but even then, a relationship between the SUBJECT and OBJECT cannot be established.",None needed; None needed,groq-llama-generic
+GO:0034909,RHEA:34223,6,0.7000000000000001,"Name: 6-hydroxypseudooxynicotine dehydrogenase activity
+Definition: Catalysis of the reaction: 6-hydroxypseudooxynicotine + H2O + OH- = 6-hydroxy-3-succinoylpyridine + 4 H+ + 4 e- + methylamine.
+Relationships:","Name: 6-hydroxypseudooxynicotine + A + H2O = 2,6-dihydroxypseudooxynicotine + AH2
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same reaction, although they are related. The SUBJECT describes the reaction: 6-hydroxypseudooxynicotine + H2O + OH- = 6-hydroxy-3-succinoylpyridine + 4 H+ + 4 e- + methylamine, while the OBJECT describes the reaction: 6-hydroxypseudooxynicotine + A + H2O = 2,6-dihydroxypseudooxynicotine + AH2. The PREDICATE 'skos:exactMatch' is not accurate as the reactions are not identical.",0.1,Change to a more appropriate PREDICATE such as 'skos:closeMatch' or 'rdfs:seeAlso',None; Change to match the reaction described in the SUBJECT: 6-hydroxypseudooxynicotine + H2O + OH- = 6-hydroxy-3-succinoylpyridine + 4 H+ + 4 e- + methylamine.,mixtral-prompted
+GO:0034909,RHEA:34223,6,0.7000000000000001,"Name: 6-hydroxypseudooxynicotine dehydrogenase activity
+Definition: Catalysis of the reaction: 6-hydroxypseudooxynicotine + H2O + OH- = 6-hydroxy-3-succinoylpyridine + 4 H+ + 4 e- + methylamine.
+Relationships:","Name: 6-hydroxypseudooxynicotine + A + H2O = 2,6-dihydroxypseudooxynicotine + AH2
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT represents an enzyme activity catalyzing the conversion of 6-hydroxypseudooxynicotine to 6-hydroxy-3-succinoylpyridine, while the OBJECT represents a different reaction involving 6-hydroxypseudooxynicotine. The PREDICATE 'skos:exactMatch' is not accurate in this context.",1.0,,; ,gpt3t-prompted
+GO:0034909,RHEA:34223,6,0.7000000000000001,"Name: 6-hydroxypseudooxynicotine dehydrogenase activity
+Definition: Catalysis of the reaction: 6-hydroxypseudooxynicotine + H2O + OH- = 6-hydroxy-3-succinoylpyridine + 4 H+ + 4 e- + methylamine.
+Relationships:","Name: 6-hydroxypseudooxynicotine + A + H2O = 2,6-dihydroxypseudooxynicotine + AH2
+Definition: None
+Relationships:",oio:hasDbXref,True,"The chemical reactions described in SUBJECT and OBJECT are different, indicating that they involve different substrates and products. Therefore, they cannot be considered an exact match.",1.0,,"; Revise the OBJECT to accurately reflect the reaction catalyzed by 6-hydroxypseudooxynicotine dehydrogenase, or select an OBJECT that describes the same reaction as the SUBJECT.",gpt-4-generic
+GO:0035439,RHEA:25621,6,0.7000000000000001,"Name: halimadienyl-diphosphate synthase activity
+Definition: Catalysis of the reaction: geranylgeranyl diphosphate = halima-5(6),13-dien-15-yl diphosphate.
+Relationships:","Name: geranylgeranyl diphosphate = tuberculosinyl diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same concept and should not be mapped with skos:exactMatch. The SUBJECT is an enzymatic activity while the OBJECT is a chemical reaction. Additionally, the products of the reactions are different (halima-5(6),13-dien-15-yl diphosphate vs tuberculosinyl diphosphate).",1.0,"skos:relatedMatch may be more appropriate, as the SUBJECT and OBJECT are related but not equivalent",; ,claude-3-opus-generic
+GO:0035439,RHEA:25621,6,0.7000000000000001,"Name: halimadienyl-diphosphate synthase activity
+Definition: Catalysis of the reaction: geranylgeranyl diphosphate = halima-5(6),13-dien-15-yl diphosphate.
+Relationships:","Name: geranylgeranyl diphosphate = tuberculosinyl diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT are not an exact match. The SUBJECT relates to halimadienyl-diphosphate synthase activity, which involves the transformation of geranylgeranyl diphosphate into halima-5(6),13-dien-15-yl diphosphate. On the other hand, the OBJECT is ambiguous and lacks a clear definition but suggests a transformation of geranylgeranyl diphosphate into tuberculosinyl diphosphate. These are different biochemical reactions and thus they cannot be considered an exact match.",1.0,,; ,gpt4full-generic
+GO:0035439,RHEA:25621,6,0.7000000000000001,"Name: halimadienyl-diphosphate synthase activity
+Definition: Catalysis of the reaction: geranylgeranyl diphosphate = halima-5(6),13-dien-15-yl diphosphate.
+Relationships:","Name: geranylgeranyl diphosphate = tuberculosinyl diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The PREDICATE is skos:exactMatch which implies that the SUBJECT and OBJECT should be identical. However, the SUBJECT is 'halimadienyl-diphosphate synthase activity' and the OBJECT is 'geranylgeranyl diphosphate = tuberculosinyl diphosphate'. These are not identical. The SUBJECT is a type of enzymatic activity, while the OBJECT is a chemical reaction or a chemical compound, depending on the interpretation.",0.1,Modify to a more appropriate PREDICATE,None; Modify to a chemical compound or reaction related to 'halimadienyl-diphosphate synthase activity',groq-llama-generic
+GO:0035439,RHEA:25621,6,0.7000000000000001,"Name: halimadienyl-diphosphate synthase activity
+Definition: Catalysis of the reaction: geranylgeranyl diphosphate = halima-5(6),13-dien-15-yl diphosphate.
+Relationships:","Name: geranylgeranyl diphosphate = tuberculosinyl diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same reaction. The SUBJECT is a reaction that converts geranylgeranyl diphosphate to halima-5(6),13-dien-15-yl diphosphate, while the OBJECT is a reaction that converts geranylgeranyl diphosphate to tuberculosinyl diphosphate. The predicate skos:exactMatch is not accurate as the reactions are not equivalent.",0.1,skos:closeMatch or a similar predicate would be more appropriate for these non-equivalent reactions.,None; None,mixtral-prompted
+GO:0035439,RHEA:25621,6,0.7000000000000001,"Name: halimadienyl-diphosphate synthase activity
+Definition: Catalysis of the reaction: geranylgeranyl diphosphate = halima-5(6),13-dien-15-yl diphosphate.
+Relationships:","Name: geranylgeranyl diphosphate = tuberculosinyl diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The PREDICATE 'skos:exactMatch' suggests that halimadienyl-diphosphate synthase activity is equivalent to the reaction geranylgeranyl diphosphate = tuberculosinyl diphosphate. However, the OBJECT definition does not match the expected compound 'halima-5(6),13-dien-15-yl diphosphate'. This mapping is inaccurate due to the discrepancy in the chemical participants of the reaction.",1.0,,; ,gpt3t-prompted
+GO:0035439,RHEA:25621,6,0.7000000000000001,"Name: halimadienyl-diphosphate synthase activity
+Definition: Catalysis of the reaction: geranylgeranyl diphosphate = halima-5(6),13-dien-15-yl diphosphate.
+Relationships:","Name: geranylgeranyl diphosphate = tuberculosinyl diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT 'halimadienyl-diphosphate synthase activity' refers to an enzyme that catalyzes the transformation of geranylgeranyl diphosphate to halima-5(6),13-dien-15-yl diphosphate, whereas the OBJECT refers to a reaction producing tuberculosinyl diphosphate from geranylgeranyl diphosphate. Despite both involving geranylgeranyl diphosphate, the OUTPUT of the reactions are different compounds. This constitutes a significant discrepancy, rendering an 'exactMatch' relationship incorrect.",1.0,,"; Change the OBJECT to reflect an enzyme or activity specifically related to producing halima-5(6),13-dien-15-yl diphosphate, if aiming for exactMatch.",gpt-4-generic
+GO:0042410,RHEA:14781,6,0.7000000000000001,"Name: 6-carboxyhexanoate-CoA ligase activity
+Definition: Catalysis of the reaction: ATP + CoA + pimelate = AMP + diphosphate + H+ + pimelyl-CoA.
+Relationships:","Name: ATP + CoA + heptanedioate = 6-carboxyhexanoyl-CoA + AMP + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The mapping is incorrect. The subject refers to an enzymatic activity that catalyzes a specific biochemical reaction, while the object is the reaction itself. An exactMatch should be between two equivalent concepts, not between an enzyme activity and a reaction.",1.0,The predicate should be changed to something like 'catalyzes' or 'has_function' to represent the relationship between the enzyme activity and the reaction it catalyzes.,; ,claude-3-opus-generic
+GO:0042410,RHEA:14781,6,0.7000000000000001,"Name: 6-carboxyhexanoate-CoA ligase activity
+Definition: Catalysis of the reaction: ATP + CoA + pimelate = AMP + diphosphate + H+ + pimelyl-CoA.
+Relationships:","Name: ATP + CoA + heptanedioate = 6-carboxyhexanoyl-CoA + AMP + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate 'skos:exactMatch' indicates an exact identity-based match, however, the SUBJECT and OBJECT entities are not identical. They refer to two different reactions. In the SUBJECT, the reaction includes 'pimelate' as one of the reactants, while in the OBJECT, 'heptanedioate' is included instead of 'pimelate'.",1.0,,; Change 'heptanedioate' to 'pimelate' in the OBJECT to make them identical entities,gpt4full-generic
+GO:0042410,RHEA:14781,6,0.7000000000000001,"Name: 6-carboxyhexanoate-CoA ligase activity
+Definition: Catalysis of the reaction: ATP + CoA + pimelate = AMP + diphosphate + H+ + pimelyl-CoA.
+Relationships:","Name: ATP + CoA + heptanedioate = 6-carboxyhexanoyl-CoA + AMP + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not match. The SUBJECT is an enzyme that catalyzes a specific reaction, while the OBJECT describes a different reaction. The predicate 'skos:exactMatch' is incorrect as the entities are not identical.",0.1,"Predicate should be modified to reflect the relationship between the entities, e.g. 'skos:relatedMatch'",None; None,groq-llama-generic
+GO:0042410,RHEA:14781,6,0.7000000000000001,"Name: 6-carboxyhexanoate-CoA ligase activity
+Definition: Catalysis of the reaction: ATP + CoA + pimelate = AMP + diphosphate + H+ + pimelyl-CoA.
+Relationships:","Name: ATP + CoA + heptanedioate = 6-carboxyhexanoyl-CoA + AMP + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same reaction. The SUBJECT describes a reaction with pimelate as a substrate, while the OBJECT describes a reaction with heptanedioate as a substrate.",0.1,No modifications needed.,None; Change heptanedioate to pimelate to accurately represent the same reaction as the SUBJECT.,mixtral-prompted
+GO:0042410,RHEA:14781,6,0.7000000000000001,"Name: 6-carboxyhexanoate-CoA ligase activity
+Definition: Catalysis of the reaction: ATP + CoA + pimelate = AMP + diphosphate + H+ + pimelyl-CoA.
+Relationships:","Name: ATP + CoA + heptanedioate = 6-carboxyhexanoyl-CoA + AMP + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,The SUBJECT and OBJECT have similar reactions but with different substrates and products. The mappings are not exact.,1.0,,; ,gpt3t-prompted
+GO:0042410,RHEA:14781,6,0.7000000000000001,"Name: 6-carboxyhexanoate-CoA ligase activity
+Definition: Catalysis of the reaction: ATP + CoA + pimelate = AMP + diphosphate + H+ + pimelyl-CoA.
+Relationships:","Name: ATP + CoA + heptanedioate = 6-carboxyhexanoyl-CoA + AMP + diphosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes an enzyme activity specifically catalyzing the reaction involving 'pimelate' leading to 'pimelyl-CoA', while the OBJECT references a reaction starting with 'heptanedioate' instead of 'pimelate' and leading to '6-carboxyhexanoyl-CoA', not 'pimelyl-CoA'. The enzyme function and the chemical reaction are mismatched due to the substrate and product discrepancy.",1.0,,; Replace 'heptanedioate' with 'pimelate' and '6-carboxyhexanoyl-CoA' with 'pimelyl-CoA' to align with the specific enzyme activity described in the SUBJECT.,gpt-4-generic
+GO:0043744,RHEA:41944,6,0.7000000000000001,"Name: N2-acetyl-L-aminoadipate kinase activity
+Definition: Catalysis of the reaction: ATP + N-acetyl-L-2-aminoadipate = ADP + N-acetyl-L-2-aminoadipate 6-phosphate.
+Relationships:","Name: [amino-group carrier protein]-C-terminal-N-(1,4-dicarboxybutan-1-yl)-L-glutamine + ATP = [amino-group carrier protein]-C-terminal-N-(1-carboxy-5-phosphooxy-5-oxopentan-1-yl)-L-glutamine + ADP
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT is an enzymatic activity that catalyzes a specific reaction involving N-acetyl-L-2-aminoadipate, while the OBJECT is the reaction equation itself, not the enzymatic activity. These are related concepts but not an exact match.",1.0,"A more appropriate predicate might be skos:closeMatch or skos:related, as the SUBJECT and OBJECT are related but not exactly equivalent.","; To match the SUBJECT, the OBJECT should be modified to represent the enzymatic activity itself, e.g. ""catalytic activity"" with the given reaction as the definition.",claude-3-opus-generic
+GO:0043744,RHEA:41944,6,0.7000000000000001,"Name: N2-acetyl-L-aminoadipate kinase activity
+Definition: Catalysis of the reaction: ATP + N-acetyl-L-2-aminoadipate = ADP + N-acetyl-L-2-aminoadipate 6-phosphate.
+Relationships:","Name: [amino-group carrier protein]-C-terminal-N-(1,4-dicarboxybutan-1-yl)-L-glutamine + ATP = [amino-group carrier protein]-C-terminal-N-(1-carboxy-5-phosphooxy-5-oxopentan-1-yl)-L-glutamine + ADP
+Definition: None
+Relationships:",oio:hasDbXref,True,The SUBJECT and OBJECT do not match exactly. They represent different types of kinase activity and catalyze distinct reactions.,1.0,,; ,gpt4full-generic
+GO:0043744,RHEA:41944,6,0.7000000000000001,"Name: N2-acetyl-L-aminoadipate kinase activity
+Definition: Catalysis of the reaction: ATP + N-acetyl-L-2-aminoadipate = ADP + N-acetyl-L-2-aminoadipate 6-phosphate.
+Relationships:","Name: [amino-group carrier protein]-C-terminal-N-(1,4-dicarboxybutan-1-yl)-L-glutamine + ATP = [amino-group carrier protein]-C-terminal-N-(1-carboxy-5-phosphooxy-5-oxopentan-1-yl)-L-glutamine + ADP
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not have an exact match in their definitions or functions. The subject is an enzyme that catalyzes a specific reaction, while the object appears to be a chemical compound that is undergoing a reaction. The predicate 'skos:exactMatch' is not accurate because the subject and object are not equivalent concepts.",0.1,rdfs:seeAlso or skos:related,N2-acetyl-L-aminoadipate kinase; N-acetyl-L-2-aminoadipate 6-phosphate,groq-llama-generic
+GO:0043744,RHEA:41944,6,0.7000000000000001,"Name: N2-acetyl-L-aminoadipate kinase activity
+Definition: Catalysis of the reaction: ATP + N-acetyl-L-2-aminoadipate = ADP + N-acetyl-L-2-aminoadipate 6-phosphate.
+Relationships:","Name: [amino-group carrier protein]-C-terminal-N-(1,4-dicarboxybutan-1-yl)-L-glutamine + ATP = [amino-group carrier protein]-C-terminal-N-(1-carboxy-5-phosphooxy-5-oxopentan-1-yl)-L-glutamine + ADP
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not represent the same reaction, although they are similar. The SUBJECT describes the phosphorylation of N-acetyl-L-2-aminoadipate using ATP as a phosphate donor, resulting in N-acetyl-L-2-aminoadipate 6-phosphate and ADP. However, the OBJECT describes a different reaction where an amino-group carrier protein is phosphorylated at its C-terminal end using ATP as a phosphate donor, resulting in a different product.",0.1,None,"None; Modify the OBJECT to represent the same reaction as the SUBJECT: [amino-group carrier protein]-C-terminal-N-(1,4-dicarboxybutan-1-yl)-L-glutamine + ATP = [amino-group carrier protein]-C-terminal-N-(1,4-dicarboxybutan-1-yl)-L-glutamine 6-phosphate + ADP",mixtral-prompted
+GO:0043744,RHEA:41944,6,0.7000000000000001,"Name: N2-acetyl-L-aminoadipate kinase activity
+Definition: Catalysis of the reaction: ATP + N-acetyl-L-2-aminoadipate = ADP + N-acetyl-L-2-aminoadipate 6-phosphate.
+Relationships:","Name: [amino-group carrier protein]-C-terminal-N-(1,4-dicarboxybutan-1-yl)-L-glutamine + ATP = [amino-group carrier protein]-C-terminal-N-(1-carboxy-5-phosphooxy-5-oxopentan-1-yl)-L-glutamine + ADP
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed exact match between the two entities is incorrect. The reactions described in SUBJECT and OBJECT are not equivalent.,1.0,,; ,gpt3t-prompted
+GO:0043744,RHEA:41944,6,0.7000000000000001,"Name: N2-acetyl-L-aminoadipate kinase activity
+Definition: Catalysis of the reaction: ATP + N-acetyl-L-2-aminoadipate = ADP + N-acetyl-L-2-aminoadipate 6-phosphate.
+Relationships:","Name: [amino-group carrier protein]-C-terminal-N-(1,4-dicarboxybutan-1-yl)-L-glutamine + ATP = [amino-group carrier protein]-C-terminal-N-(1-carboxy-5-phosphooxy-5-oxopentan-1-yl)-L-glutamine + ADP
+Definition: None
+Relationships:",oio:hasDbXref,True,"The two entities represent catalysis of different chemical reactions involving different substrates and products. Thus, they cannot be considered an exact match.",1.0,,; ,gpt-4-generic
+GO:0043774,RHEA:42332,6,0.7000000000000001,"Name: coenzyme F420-2 alpha-glutamyl ligase activity
+Definition: Catalysis of the reaction: coenzyme F420-2 + L-glutamate + GTP = coenzyme F420-3 + GDP + orthophosphate.
+Relationships:","Name: ATP + L-glutamate + oxidized coenzyme F420-2 = ADP + H(+) + oxidized coenzyme alpha-F420-3 + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject describes an enzymatic activity that catalyzes a specific reaction, while the object is a chemical reaction. An exact match requires both concepts to be of the same type, either both enzymes/enzymatic activities or both chemical reactions. Additionally, the reactions are not identical - the subject uses GTP and produces GDP, while the object uses ATP and produces ADP.",1.0,"Change to a less strict mapping like skos:closeMatch or skos:relatedMatch, since the concepts are related but not identical","; Change the object to the corresponding enzymatic activity that catalyzes the reaction, e.g. 'coenzyme F420-2 alpha-glutamyl ligase'",claude-3-opus-generic
+GO:0043774,RHEA:42332,6,0.7000000000000001,"Name: coenzyme F420-2 alpha-glutamyl ligase activity
+Definition: Catalysis of the reaction: coenzyme F420-2 + L-glutamate + GTP = coenzyme F420-3 + GDP + orthophosphate.
+Relationships:","Name: ATP + L-glutamate + oxidized coenzyme F420-2 = ADP + H(+) + oxidized coenzyme alpha-F420-3 + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The predicate skos:exactMatch suggests that the subject and object should be identical. However, the reactions they catalyze are not completely identical. The subject uses GTP as a reactant and generates GDP as a product, while the object uses ATP as reactant and generates ADP as a product. This produces a critical mismatch between subject and object, meaning they don't match exactly.",1.0,NA,NA; Change ATP to GTP and ADP to GDP in the object name to correctly align with the SUBJECT,gpt4full-generic
+GO:0043774,RHEA:42332,6,0.7000000000000001,"Name: coenzyme F420-2 alpha-glutamyl ligase activity
+Definition: Catalysis of the reaction: coenzyme F420-2 + L-glutamate + GTP = coenzyme F420-3 + GDP + orthophosphate.
+Relationships:","Name: ATP + L-glutamate + oxidized coenzyme F420-2 = ADP + H(+) + oxidized coenzyme alpha-F420-3 + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT and OBJECT do not have an exact match relationship. The SUBJECT is a specific enzyme that catalyzes a reaction involving coenzyme F420-2, L-glutamate, and GTP, while the OBJECT is a chemical reaction involving ATP, L-glutamate, and oxidized coenzyme F420-2. The two are related, but not in an exact match relationship.",0.1,Change to 'skos:relatedMatch' or a similar predicate.,"None; Change to 'Formation of coenzyme F420-3 from ATP, L-glutamate, and oxidized coenzyme F420-2'.",groq-llama-generic
+GO:0043774,RHEA:42332,6,0.7000000000000001,"Name: coenzyme F420-2 alpha-glutamyl ligase activity
+Definition: Catalysis of the reaction: coenzyme F420-2 + L-glutamate + GTP = coenzyme F420-3 + GDP + orthophosphate.
+Relationships:","Name: ATP + L-glutamate + oxidized coenzyme F420-2 = ADP + H(+) + oxidized coenzyme alpha-F420-3 + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The subject and object do not represent the same reaction. The subject describes a reaction with GTP as one of the reactants, while the object describes a reaction with ATP instead.",0.1,None,None; Replace ATP with GTP to match the subject,mixtral-prompted
+GO:0043774,RHEA:42332,6,0.7000000000000001,"Name: coenzyme F420-2 alpha-glutamyl ligase activity
+Definition: Catalysis of the reaction: coenzyme F420-2 + L-glutamate + GTP = coenzyme F420-3 + GDP + orthophosphate.
+Relationships:","Name: ATP + L-glutamate + oxidized coenzyme F420-2 = ADP + H(+) + oxidized coenzyme alpha-F420-3 + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,The proposed mapping is incorrect. The reaction mechanisms are not equivalent. The substrates and products differ between the two entities.,1.0,,; ,gpt3t-prompted
+GO:0043774,RHEA:42332,6,0.7000000000000001,"Name: coenzyme F420-2 alpha-glutamyl ligase activity
+Definition: Catalysis of the reaction: coenzyme F420-2 + L-glutamate + GTP = coenzyme F420-3 + GDP + orthophosphate.
+Relationships:","Name: ATP + L-glutamate + oxidized coenzyme F420-2 = ADP + H(+) + oxidized coenzyme alpha-F420-3 + phosphate
+Definition: None
+Relationships:",oio:hasDbXref,True,"The SUBJECT describes an enzyme activity catalyzing a reaction with GTP, while the OBJECT refers to a chemical reaction involving ATP instead of GTP. Additionally, the specifics of the substrates and products in the OBJECT's reaction do not exactly match the SUBJECT's description.",1.0,,; Replace ATP with GTP in the OBJECT description to more accurately reflect the SUBJECT. Consider adjusting the terminology to closely match that of the SUBJECT.,gpt-4-generic
